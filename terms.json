@@ -1,0 +1,2983 @@
+{
+  "version": 1,
+  "updated_at": "2026-05-21",
+  "terms": [
+    {
+      "id": "file",
+      "category": "beginner",
+      "term": "ファイル",
+      "reading": "ふぁいる",
+      "one_liner": "データの一かたまり",
+      "analogy": "書類1枚みたいなもの。写真も文書もコードも、1個ずつが「ファイル」。",
+      "where": [
+        "写真を保存したとき",
+        "Wordで文書を作ったとき",
+        "コードを書いて保存したとき"
+      ],
+      "mistake": "末尾の拡張子（.jpg や .txt など）を消してしまい、開けなくなる。",
+      "related": [
+        "folder",
+        "app"
+      ]
+    },
+    {
+      "id": "folder",
+      "category": "beginner",
+      "term": "フォルダ",
+      "reading": "ふぉるだ",
+      "one_liner": "ファイルをまとめる入れ物",
+      "analogy": "書類を入れるクリアファイルや引き出し。中にさらにフォルダも入れられる。",
+      "where": [
+        "デスクトップを整理するとき",
+        "ファイルをまとめるとき",
+        "プロジェクトを作るとき"
+      ],
+      "mistake": "フォルダごと消すと、中のファイルも全部まとめて消える。",
+      "related": [
+        "file"
+      ]
+    },
+    {
+      "id": "browser",
+      "category": "beginner",
+      "term": "ブラウザ",
+      "reading": "ぶらうざ",
+      "one_liner": "ネットを見るためのソフト",
+      "analogy": "ネットの世界をのぞく「窓」。Chrome・Safari・Edge などが代表。",
+      "where": [
+        "Webサイトを見るとき",
+        "検索するとき",
+        "Webアプリを使うとき"
+      ],
+      "mistake": "ブラウザ（窓）と検索エンジン（探す仕組み）を同じものだと思いがち。",
+      "related": [
+        "app",
+        "search_engine"
+      ]
+    },
+    {
+      "id": "app",
+      "category": "beginner",
+      "term": "アプリ",
+      "reading": "あぷり",
+      "one_liner": "目的ごとの道具ソフト",
+      "analogy": "電卓・地図・カメラのように、目的別の道具。スマホのアイコン1つ1つがアプリ。",
+      "where": [
+        "スマホのホーム画面",
+        "App Store / Google Play で入れるとき",
+        "「このアプリ開いて」と言われたとき"
+      ],
+      "mistake": "アプリと「ブラウザで見るサイト」を混同。アプリは端末に入れる、サイトはブラウザで見る。",
+      "related": [
+        "install",
+        "browser"
+      ]
+    },
+    {
+      "id": "install",
+      "category": "beginner",
+      "term": "インストール",
+      "reading": "いんすとーる",
+      "one_liner": "アプリを端末に入れる作業",
+      "analogy": "買った家電を家に運び込んで、使えるように設置するイメージ。",
+      "where": [
+        "新しいアプリを使うとき",
+        "開発で「npm install」を打つとき",
+        "ソフトを追加するとき"
+      ],
+      "mistake": "ボタンを押せば即完了と思いがち。許可や再起動が必要なこともある。",
+      "related": [
+        "app",
+        "download"
+      ]
+    },
+    {
+      "id": "account",
+      "category": "beginner",
+      "term": "アカウント",
+      "reading": "あかうんと",
+      "one_liner": "サービスを使う会員登録",
+      "analogy": "ジムやお店の会員証。自分専用の入り口になる登録情報。",
+      "where": [
+        "サービスに登録するとき",
+        "ログイン画面",
+        "「アカウント作成」ボタン"
+      ],
+      "mistake": "同じサービスで複数アカウントを作り、どれでログインしたか分からなくなる。",
+      "related": [
+        "password",
+        "login"
+      ]
+    },
+    {
+      "id": "password",
+      "category": "beginner",
+      "term": "パスワード",
+      "reading": "ぱすわーど",
+      "one_liner": "本人確認の合言葉",
+      "analogy": "家の鍵の暗証番号。本人だけが知っている合言葉。",
+      "where": [
+        "ログインするとき",
+        "アカウントを作るとき",
+        "銀行やSNSを使うとき"
+      ],
+      "mistake": "全部のサービスで同じパスワードを使い回す。1つ漏れると芋づる式に全部危険。",
+      "related": [
+        "account",
+        "login"
+      ]
+    },
+    {
+      "id": "wifi",
+      "category": "beginner",
+      "term": "Wi-Fi",
+      "reading": "わいふぁい",
+      "one_liner": "無線でネットにつなぐ仕組み",
+      "analogy": "電波で飛ばすネットの通り道。ケーブルなしでつながる。",
+      "where": [
+        "家やカフェでネットを使うとき",
+        "スマホやPCの設定",
+        "「Wi-Fiのパスワード教えて」と言うとき"
+      ],
+      "mistake": "Wi-Fiとモバイル通信（ギガ）の違いを意識せず、知らぬ間にギガを大量消費する。",
+      "related": [
+        "browser"
+      ]
+    },
+    {
+      "id": "update",
+      "category": "beginner",
+      "term": "アップデート",
+      "reading": "あっぷでーと",
+      "one_liner": "ソフトを新しい版に更新",
+      "analogy": "アプリの模様替え＋修理。新機能の追加やバグ修正が届く。",
+      "where": [
+        "アプリに更新通知が来たとき",
+        "OSの更新",
+        "「最新版にして」と言われたとき"
+      ],
+      "mistake": "面倒で放置しがち。セキュリティの穴が塞がれず、危険なまま使い続けることになる。",
+      "related": [
+        "app",
+        "os"
+      ]
+    },
+    {
+      "id": "os",
+      "category": "beginner",
+      "term": "OS",
+      "reading": "おーえす",
+      "one_liner": "端末全体を動かす土台ソフト",
+      "analogy": "建物でいう土地と基礎。その上にアプリが建つ。Windows・macOS・iOS・Android など。",
+      "where": [
+        "PCやスマホを買うとき",
+        "「OSは何？」と聞かれたとき",
+        "アプリの対応条件を見るとき"
+      ],
+      "mistake": "OSとアプリを混同する。OSは土台、アプリはその上で動く道具。",
+      "related": [
+        "app",
+        "update"
+      ]
+    },
+    {
+      "id": "download",
+      "category": "beginner",
+      "term": "ダウンロード",
+      "reading": "だうんろーど",
+      "one_liner": "ネットから手元に取り込む",
+      "analogy": "ネットの棚から自分の端末に荷物を持ち帰るイメージ。",
+      "where": [
+        "アプリやファイルを入手するとき",
+        "「ダウンロード」ボタン",
+        "写真やPDFを保存するとき"
+      ],
+      "mistake": "怪しいサイトから入れて、ウイルス入りのファイルをダウンロードしてしまう。",
+      "related": [
+        "upload",
+        "install"
+      ]
+    },
+    {
+      "id": "upload",
+      "category": "beginner",
+      "term": "アップロード",
+      "reading": "あっぷろーど",
+      "one_liner": "手元からネットへ送り出す",
+      "analogy": "自分の荷物をネットの棚に預けに行くイメージ。ダウンロードの逆。",
+      "where": [
+        "写真をSNSに投稿するとき",
+        "ファイルをクラウドに上げるとき",
+        "「アップロード」ボタン"
+      ],
+      "mistake": "公開のつもりがなかった写真やファイルを、うっかり全体公開でアップしてしまう。",
+      "related": [
+        "download",
+        "cloud"
+      ]
+    },
+    {
+      "id": "desktop",
+      "category": "beginner",
+      "term": "デスクトップ",
+      "reading": "ですくとっぷ",
+      "one_liner": "起動直後に出る作業の画面",
+      "analogy": "PCを開いて最初に見える画面。机の上にアイコンを並べる感覚。",
+      "where": [
+        "PCを起動したとき",
+        "アイコンを置く場所",
+        "「デスクトップに保存」したとき"
+      ],
+      "mistake": "デスクトップにファイルを置きすぎて、どこに何があるか分からなくなる。",
+      "related": [
+        "icon",
+        "folder"
+      ]
+    },
+    {
+      "id": "icon",
+      "category": "beginner",
+      "term": "アイコン",
+      "reading": "あいこん",
+      "one_liner": "機能を表す小さな絵",
+      "analogy": "お店の看板やマーク。ひと目で「これは何か」を伝える小さな絵。",
+      "where": [
+        "アプリのマーク",
+        "ボタンの絵柄",
+        "デスクトップやホーム画面"
+      ],
+      "mistake": "アイコンを消すと中身も消えると思いがち。PCの近道アイコン（ショートカット）なら本体は残る。",
+      "related": [
+        "app",
+        "desktop"
+      ]
+    },
+    {
+      "id": "copy_paste",
+      "category": "beginner",
+      "term": "コピー＆ペースト",
+      "reading": "こぴーあんどぺーすと",
+      "one_liner": "複製して貼り付ける操作",
+      "analogy": "文章や画像を「写し取って」別の場所に「貼る」。略してコピペ。",
+      "where": [
+        "文章を別の場所に移すとき",
+        "キーボードでサッと操作するとき",
+        "コードを写すとき"
+      ],
+      "mistake": "「切り取り」と混同し、貼り付け前に元データを失う。",
+      "related": [
+        "shortcut"
+      ],
+      "shortcuts": {
+        "mac": "⌘ + C（コピー）／ ⌘ + V（貼り付け）",
+        "windows": "Ctrl + C（コピー）／ Ctrl + V（貼り付け）"
+      }
+    },
+    {
+      "id": "screenshot",
+      "category": "beginner",
+      "term": "スクリーンショット",
+      "reading": "すくりーんしょっと",
+      "one_liner": "画面をそのまま写真に撮る",
+      "analogy": "画面の「記念撮影」。今見えている画面を画像として保存する。",
+      "where": [
+        "エラー画面を人に見せるとき",
+        "操作手順を残すとき",
+        "SNSに画面を載せるとき"
+      ],
+      "mistake": "個人情報や通知が写り込んだまま投稿してしまう。",
+      "related": [
+        "save"
+      ],
+      "shortcuts": {
+        "mac": "⌘ + Shift + 4（範囲選択）／ ⌘ + Shift + 3（全画面）",
+        "windows": "Win + Shift + S（範囲選択）／ PrtScn（全画面）"
+      }
+    },
+    {
+      "id": "save",
+      "category": "beginner",
+      "term": "保存",
+      "reading": "ほぞん",
+      "one_liner": "データを残しておく操作",
+      "analogy": "書いたものを引き出しにしまう。しまわないと消えてしまう。",
+      "where": [
+        "文書を作ったとき",
+        "こまめに残しておきたいとき",
+        "作業を中断するとき"
+      ],
+      "mistake": "保存せずにアプリを閉じて、作業が全部消える。",
+      "related": [
+        "file"
+      ],
+      "shortcuts": {
+        "mac": "⌘ + S",
+        "windows": "Ctrl + S"
+      }
+    },
+    {
+      "id": "extension",
+      "category": "beginner",
+      "term": "拡張子",
+      "reading": "かくちょうし",
+      "one_liner": "ファイルの種類を表す末尾",
+      "analogy": "名前のあとの「.jpg」「.txt」。ファイルの「種類タグ」。",
+      "where": [
+        "ファイル名の末尾",
+        "「.png で保存」するとき",
+        "どのアプリで開くか決まるとき"
+      ],
+      "mistake": "拡張子を勝手に書き換えて、ファイルが開けなくなる。",
+      "related": [
+        "file"
+      ]
+    },
+    {
+      "id": "zip",
+      "category": "beginner",
+      "term": "ZIP（圧縮ファイル）",
+      "reading": "じっぷ",
+      "one_liner": "複数をまとめて軽くした箱",
+      "analogy": "何個もの荷物を1つの箱にギュッとまとめた状態。送るとき便利。",
+      "where": [
+        "複数ファイルをまとめて送るとき",
+        "「圧縮」「展開」するとき",
+        "ダウンロードした素材"
+      ],
+      "mistake": "展開（解凍）せずに中身を使おうとして、開けないと焦る。",
+      "related": [
+        "file",
+        "folder"
+      ]
+    },
+    {
+      "id": "url",
+      "category": "beginner",
+      "term": "URL",
+      "reading": "ゆーあーるえる",
+      "one_liner": "Webページの住所",
+      "analogy": "ネット上の住所。「https://〜」がそのページの所在地。",
+      "where": [
+        "ブラウザの上の欄",
+        "リンクを共有するとき",
+        "「URLを貼って」と言われたとき"
+      ],
+      "mistake": "本物そっくりの偽URLにだまされて、偽サイトに情報を入力する。",
+      "related": [
+        "browser"
+      ]
+    },
+    {
+      "id": "email",
+      "category": "beginner",
+      "term": "メールアドレス",
+      "reading": "めーるあどれす",
+      "one_liner": "ネット上の自分の郵便受け",
+      "analogy": "ネットの世界の郵便受けの住所。「○○@△△.com」の形。",
+      "where": [
+        "アカウント登録のとき",
+        "連絡先として",
+        "ログインIDとして使うとき"
+      ],
+      "mistake": "打ち間違えて登録し、確認メールが永遠に届かない。",
+      "related": [
+        "account"
+      ]
+    },
+    {
+      "id": "cloud",
+      "category": "beginner",
+      "term": "クラウド",
+      "reading": "くらうど",
+      "one_liner": "ネット上の保管場所",
+      "analogy": "自分の端末ではなく、ネットの先にある大きなPC（サーバー）に預ける仕組み。",
+      "where": [
+        "写真を自動バックアップするとき",
+        "Googleドライブなど",
+        "「クラウドに保存」するとき"
+      ],
+      "mistake": "クラウド上のデータを消すと、同期した全端末から消えることに気づかない。",
+      "related": [
+        "upload",
+        "backup"
+      ]
+    },
+    {
+      "id": "storage",
+      "category": "beginner",
+      "term": "ストレージ",
+      "reading": "すとれーじ",
+      "one_liner": "データを保存できる容量",
+      "analogy": "倉庫の広さ。写真やアプリをどれだけ置けるかの「入れ物のサイズ」。",
+      "where": [
+        "「容量がいっぱい」の警告",
+        "端末を買うとき（64GBなど）",
+        "写真が保存できないとき"
+      ],
+      "mistake": "ストレージ（保存容量）とメモリ（作業中の一時領域）を同じものだと思って混同する。",
+      "related": [
+        "file"
+      ]
+    },
+    {
+      "id": "login",
+      "category": "beginner",
+      "term": "ログイン",
+      "reading": "ろぐいん",
+      "one_liner": "自分のアカウントに入る",
+      "analogy": "会員証を見せて自分の部屋に入ること。IDとパスワードで本人確認する。",
+      "where": [
+        "サービスを使い始めるとき",
+        "「ログイン」ボタン",
+        "アプリを開いたとき"
+      ],
+      "mistake": "共用PCでログインしたまま離席し、他人に操作されてしまう。",
+      "related": [
+        "account",
+        "password"
+      ]
+    },
+    {
+      "id": "setting",
+      "category": "beginner",
+      "term": "設定",
+      "reading": "せってい",
+      "one_liner": "アプリや端末を調整する場所",
+      "analogy": "機械の調整つまみが集まった場所。通知・音・見た目などを変えられる。",
+      "where": [
+        "歯車マークのところ",
+        "「設定を開いて」と言われたとき",
+        "通知をオフにするとき"
+      ],
+      "mistake": "どこをいじったか覚えておらず、元に戻せなくなる。",
+      "related": [
+        "notification"
+      ]
+    },
+    {
+      "id": "notification",
+      "category": "beginner",
+      "term": "通知",
+      "reading": "つうち",
+      "one_liner": "アプリからのお知らせ",
+      "analogy": "肩を叩いて「ねえねえ」と教えてくれる呼びかけ。",
+      "where": [
+        "画面上に出るバナー",
+        "アプリの赤い数字（バッジ）",
+        "ロック画面"
+      ],
+      "mistake": "全アプリの通知をオンにして、お知らせまみれで大事なものを見逃す。",
+      "related": [
+        "setting"
+      ]
+    },
+    {
+      "id": "cache",
+      "category": "beginner",
+      "term": "キャッシュ",
+      "reading": "きゃっしゅ",
+      "one_liner": "高速化のための一時保存",
+      "analogy": "よく使う物を手元に置いて、取りに行く手間を省く。2回目が速くなる仕組み。",
+      "where": [
+        "ブラウザが表示を速くするとき",
+        "「キャッシュを削除」するとき",
+        "アプリの動作が重いとき"
+      ],
+      "mistake": "表示や動作がおかしい時、キャッシュ削除で直ることに気づかず放置する。",
+      "related": [
+        "browser"
+      ]
+    },
+    {
+      "id": "search_engine",
+      "category": "beginner",
+      "term": "検索エンジン",
+      "reading": "けんさくえんじん",
+      "one_liner": "ネットを探す仕組み",
+      "analogy": "ネットの巨大な図書館の「司書さん」。言葉を渡すと該当ページを探してくれる。GoogleやBingなど。",
+      "where": [
+        "Googleで検索するとき",
+        "ブラウザの検索欄",
+        "「ググる」と言うとき"
+      ],
+      "mistake": "検索エンジン（探す仕組み）とブラウザ（見る窓）を同じものだと思い込む。",
+      "related": [
+        "browser"
+      ]
+    },
+    {
+      "id": "backup",
+      "category": "beginner",
+      "term": "バックアップ",
+      "reading": "ばっくあっぷ",
+      "one_liner": "万一に備えた控えのコピー",
+      "analogy": "大事な書類のコピーを別の場所に取っておくこと。原本が壊れても安心。",
+      "where": [
+        "スマホの機種変の前",
+        "クラウド自動バックアップ",
+        "大事なデータを守るとき"
+      ],
+      "mistake": "バックアップを取らずに端末が壊れ、写真もデータも全部失う。",
+      "related": [
+        "cloud",
+        "storage"
+      ]
+    },
+    {
+      "id": "shortcut",
+      "category": "beginner",
+      "term": "ショートカットキー",
+      "reading": "しょーとかっときー",
+      "one_liner": "操作を速くするキー操作",
+      "analogy": "よく使う操作の「近道ボタン」。キーの組み合わせで一発で実行できる。",
+      "where": [
+        "よく使う操作を一発でやるとき",
+        "マウスを使わず操作するとき",
+        "作業を速くしたいとき"
+      ],
+      "mistake": "存在を知らずに全部マウス操作して、作業に余計な時間をかける。",
+      "related": [
+        "copy_paste"
+      ],
+      "shortcuts": {
+        "mac": "⌘ + C（コピー）、⌘ + S（保存）、⌘ + Z（取り消し）など",
+        "windows": "Ctrl + C（コピー）、Ctrl + S（保存）、Ctrl + Z（取り消し）など"
+      }
+    },
+    {
+      "id": "internet",
+      "category": "green",
+      "term": "インターネット",
+      "reading": "いんたーねっと",
+      "one_liner": "世界中をつなぐネットの網",
+      "analogy": "世界中のコンピュータをつなぐ巨大な道路網。その上をデータが行き交う。",
+      "where": [
+        "Webサイトを見るとき",
+        "メールやSNS",
+        "アプリがデータをやり取りするとき"
+      ],
+      "mistake": "インターネットとWi-Fi（つなぐ手段）を同じものだと思う。Wi-Fiは入り口の一つ。",
+      "related": [
+        "wifi",
+        "browser",
+        "server"
+      ]
+    },
+    {
+      "id": "html",
+      "category": "green",
+      "term": "HTML",
+      "reading": "えいちてぃーえむえる",
+      "one_liner": "Webページの設計図",
+      "analogy": "家でいう骨組み・間取り。文章や画像をどこに置くかを決める。",
+      "where": [
+        "Webサイトを作るとき",
+        "ブラウザが表示しているもの",
+        "AIにサイトを作らせたとき"
+      ],
+      "mistake": "HTMLをプログラミング言語だと思いがち。実は「マークアップ言語」で、計算や処理はできない。",
+      "related": [
+        "css",
+        "javascript",
+        "code"
+      ]
+    },
+    {
+      "id": "css",
+      "category": "green",
+      "term": "CSS",
+      "reading": "しーえすえす",
+      "one_liner": "見た目を整える言語",
+      "analogy": "家でいう内装やペンキ塗り。色・大きさ・配置など「装い」を決める。",
+      "where": [
+        "サイトの色やデザインを変えるとき",
+        "HTMLとセットで使うとき",
+        "レイアウトを整えるとき"
+      ],
+      "mistake": "HTMLだけで見た目が完成すると思いがち。装飾はCSSの担当。",
+      "related": [
+        "html",
+        "javascript"
+      ]
+    },
+    {
+      "id": "javascript",
+      "category": "green",
+      "term": "JavaScript",
+      "reading": "じゃばすくりぷと",
+      "one_liner": "Webに動きをつける言語",
+      "analogy": "家でいう電気やスイッチ。ボタンを押すと反応する、といった動作を担う。",
+      "where": [
+        "ボタンを押して反応させるとき",
+        "Webアプリの動作",
+        "ブラウザの中で動く処理"
+      ],
+      "mistake": "「JavaScript」と「Java」を同じものだと思う。名前は似ているが全く別の言語。",
+      "related": [
+        "html",
+        "css",
+        "code"
+      ]
+    },
+    {
+      "id": "programming_language",
+      "category": "green",
+      "term": "プログラミング言語",
+      "reading": "ぷろぐらみんぐげんご",
+      "one_liner": "コンピュータへの指示を書く言葉",
+      "analogy": "人間の言葉に日本語・英語があるように、PythonやJavaScriptなど種類がある。",
+      "where": [
+        "アプリを作るとき",
+        "「何の言語で書く？」と聞かれたとき",
+        "学習を始めるとき"
+      ],
+      "mistake": "1つ覚えれば何でも作れると思いがち。実際は用途ごとに向き不向きがある。",
+      "related": [
+        "code",
+        "javascript"
+      ]
+    },
+    {
+      "id": "code",
+      "category": "green",
+      "term": "コード",
+      "reading": "こーど",
+      "one_liner": "コンピュータへの命令文",
+      "analogy": "料理のレシピ。「これをして、次にこれ」と手順を書いたもの。",
+      "where": [
+        "プログラムを書くとき",
+        "エディタの画面",
+        "AIが生成するもの"
+      ],
+      "mistake": "コードは1文字でも間違うと動かないことが多い。雰囲気では動かない。",
+      "related": [
+        "programming_language",
+        "function"
+      ]
+    },
+    {
+      "id": "variable",
+      "category": "green",
+      "term": "変数",
+      "reading": "へんすう",
+      "one_liner": "値を入れる名前付きの箱",
+      "analogy": "ラベルを貼った箱。「name」という箱に「太郎」を入れておく感覚。",
+      "where": [
+        "プログラムを書くとき",
+        "値を一時的に保存するとき",
+        "コードのあちこち"
+      ],
+      "mistake": "中身（値）と箱の名前を混同する。名前は同じでも中身は入れ替えられる。",
+      "related": [
+        "code",
+        "function"
+      ]
+    },
+    {
+      "id": "function",
+      "category": "green",
+      "term": "関数",
+      "reading": "かんすう",
+      "one_liner": "処理をまとめて名前をつけたもの",
+      "analogy": "自動販売機。ボタン（入力）を押すと決まった商品（結果）が出てくるひとまとまり。",
+      "where": [
+        "同じ処理を繰り返すとき",
+        "コードを整理するとき",
+        "「この関数を呼ぶ」と言うとき"
+      ],
+      "mistake": "何でも1つの関数に詰め込み、後で読めなくなる。役割ごとに分けるのが基本。",
+      "related": [
+        "variable",
+        "code"
+      ]
+    },
+    {
+      "id": "server",
+      "category": "green",
+      "term": "サーバー",
+      "reading": "さーばー",
+      "one_liner": "サービスを提供する側のPC",
+      "analogy": "レストランの厨房。注文（リクエスト）を受けて料理（データ）を出す側。",
+      "where": [
+        "Webサイトを公開するとき",
+        "データを保管する場所",
+        "「サーバーが落ちた」と言うとき"
+      ],
+      "mistake": "特別な機械だと思いがち。普通のPCでもサーバーになれる（役割の名前）。",
+      "related": [
+        "client",
+        "backend",
+        "database"
+      ]
+    },
+    {
+      "id": "client",
+      "category": "green",
+      "term": "クライアント",
+      "reading": "くらいあんと",
+      "one_liner": "サービスを受け取る側",
+      "analogy": "レストランの客席。注文を出して料理を受け取る側。あなたのスマホやPC。",
+      "where": [
+        "ブラウザやアプリ",
+        "サーバーに要求を出すとき",
+        "「クライアント側で処理」と言うとき"
+      ],
+      "mistake": "「お客さん（取引先）」の意味と、IT用語の「受け取る側の端末」を混同する。",
+      "related": [
+        "server",
+        "frontend"
+      ]
+    },
+    {
+      "id": "database",
+      "category": "green",
+      "term": "データベース",
+      "reading": "でーたべーす",
+      "one_liner": "データを整理して保管する仕組み",
+      "analogy": "きちんと仕分けされた巨大な棚や台帳。欲しいデータをすぐ取り出せる。",
+      "where": [
+        "ユーザー情報を保存するとき",
+        "アプリの裏側",
+        "「DBに保存」と言うとき"
+      ],
+      "mistake": "ただのファイル置き場と思いがち。検索や並べ替えが速いのが強み。",
+      "related": [
+        "server",
+        "backend"
+      ]
+    },
+    {
+      "id": "api",
+      "category": "green",
+      "term": "API",
+      "reading": "えーぴーあい",
+      "one_liner": "ソフト同士をつなぐ窓口",
+      "analogy": "レストランの注文窓口。決まった頼み方をすれば、決まった返事がもらえる取り決め。",
+      "where": [
+        "他のサービスの機能を使うとき",
+        "地図や天気を呼び出すとき",
+        "アプリ同士の連携"
+      ],
+      "mistake": "API（窓口）とAPIキー（その窓口を使う合鍵）を混同する。",
+      "related": [
+        "server",
+        "frontend",
+        "backend"
+      ]
+    },
+    {
+      "id": "frontend",
+      "category": "green",
+      "term": "フロントエンド",
+      "reading": "ふろんとえんど",
+      "one_liner": "ユーザーが見て触る側",
+      "analogy": "お店の店頭・接客スペース。見た目や操作を担当する表側。",
+      "where": [
+        "画面のデザイン",
+        "ボタンや入力欄",
+        "「フロント側の修正」と言うとき"
+      ],
+      "mistake": "フロントエンドだけでアプリが完成すると思いがち。裏側（バックエンド）と対で動く。",
+      "related": [
+        "backend",
+        "html"
+      ]
+    },
+    {
+      "id": "backend",
+      "category": "green",
+      "term": "バックエンド",
+      "reading": "ばっくえんど",
+      "one_liner": "裏側のデータ処理を担う側",
+      "analogy": "お店の厨房・倉庫・事務。見えない裏でデータを処理・保管する。",
+      "where": [
+        "データの保存や計算",
+        "サーバー側の処理",
+        "「バック側のエラー」と言うとき"
+      ],
+      "mistake": "目に見えないので軽視されがち。データの安全や正しさはここが要。",
+      "related": [
+        "frontend",
+        "server",
+        "database"
+      ]
+    },
+    {
+      "id": "http",
+      "category": "green",
+      "term": "HTTP / HTTPS",
+      "reading": "えいちてぃーてぃーぴー",
+      "one_liner": "Webの通信ルール",
+      "analogy": "郵便のやり取りの決まりごと。HTTPSは中身を封筒で隠した安全版。",
+      "where": [
+        "URLの先頭（https://）",
+        "ブラウザの鍵マーク",
+        "Webの通信全般"
+      ],
+      "mistake": "鍵マーク（HTTPS）があれば100%安全と思い込む。通信は守られても、相手が偽サイトのことはある。",
+      "related": [
+        "url",
+        "server"
+      ]
+    },
+    {
+      "id": "domain",
+      "category": "green",
+      "term": "ドメイン",
+      "reading": "どめいん",
+      "one_liner": "サイトの名前部分",
+      "analogy": "ネット上の表札・住所名。example.com の「example.com」の部分。",
+      "where": [
+        "サイトを公開するとき",
+        "URLの真ん中あたり",
+        "ドメインを取得するとき"
+      ],
+      "mistake": "ドメイン（名前）とURL全体を混同する。URLはドメインを含む、もっと長い住所。",
+      "related": [
+        "url",
+        "http"
+      ]
+    },
+    {
+      "id": "git",
+      "category": "green",
+      "term": "Git",
+      "reading": "ぎっと",
+      "one_liner": "変更履歴を記録する仕組み",
+      "analogy": "作業のセーブポイントを作る道具。いつでも過去の状態に戻せる。",
+      "where": [
+        "コードの変更を保存するとき",
+        "「コミットする」と言うとき",
+        "チーム開発"
+      ],
+      "mistake": "Git（仕組み）とGitHub（サービス）を同じものだと思う。GitはGitHubなしでも使える。",
+      "related": [
+        "github",
+        "repository"
+      ]
+    },
+    {
+      "id": "github",
+      "category": "green",
+      "term": "GitHub",
+      "reading": "ぎっとはぶ",
+      "one_liner": "コードを保管・共有するサービス",
+      "analogy": "Gitで記録したコードを置いておく、ネット上の倉庫＆共有スペース。",
+      "where": [
+        "コードを公開・保管するとき",
+        "チームで開発するとき",
+        "AIにコードを渡すとき"
+      ],
+      "mistake": "APIキーなど秘密の情報を含むファイルを、そのまま公開してしまう事故。",
+      "related": [
+        "git",
+        "repository",
+        "open_source"
+      ]
+    },
+    {
+      "id": "repository",
+      "category": "green",
+      "term": "リポジトリ",
+      "reading": "りぽじとり",
+      "one_liner": "プロジェクト1つ分の保管庫",
+      "analogy": "1つのアプリのコードや履歴をまるごと入れた箱。略して「リポ」。",
+      "where": [
+        "GitHubでプロジェクトを作るとき",
+        "「リポジトリをクローン」",
+        "コードの単位"
+      ],
+      "mistake": "公開（パブリック）と非公開（プライベート）の設定を間違え、意図せず全世界に公開する。",
+      "related": [
+        "git",
+        "github"
+      ]
+    },
+    {
+      "id": "open_source",
+      "category": "green",
+      "term": "オープンソース",
+      "reading": "おーぷんそーす",
+      "one_liner": "公開され誰でも使えるコード",
+      "analogy": "無料で配られるレシピ。中身が公開され、誰でも見て・使って・改良できる。",
+      "where": [
+        "ライブラリを使うとき",
+        "GitHub上の公開プロジェクト",
+        "「OSSを利用」と言うとき"
+      ],
+      "mistake": "無料＝何でも自由と思いがち。利用ルール（ライセンス）は必ず確認が必要。",
+      "related": [
+        "github",
+        "code"
+      ]
+    },
+    {
+      "id": "ai",
+      "category": "green",
+      "term": "AI",
+      "reading": "えーあい",
+      "one_liner": "人間っぽい判断をする技術",
+      "analogy": "大量の例から学んで、人間のように考え・答えるコンピュータの仕組み。",
+      "where": [
+        "ChatGPTやClaudeを使うとき",
+        "画像生成や翻訳",
+        "「AIに作らせる」と言うとき"
+      ],
+      "mistake": "AIは必ず正しいと思い込む。それっぽい嘘（ハルシネーション）を堂々と返すことがある。",
+      "related": [
+        "llm",
+        "prompt"
+      ]
+    },
+    {
+      "id": "llm",
+      "category": "green",
+      "term": "大規模言語モデル（LLM）",
+      "reading": "だいきぼげんごもでる",
+      "one_liner": "文章を扱うAIの頭脳",
+      "analogy": "膨大な文章を学んで「次に来そうな言葉」を予測する仕組み。ClaudeやChatGPTの正体。",
+      "where": [
+        "ChatGPT・Claude・Geminiの中身",
+        "AIチャット",
+        "「LLMを使う」と言うとき"
+      ],
+      "mistake": "何でも知っている人間だと思いがち。実際は「もっともらしい続き」を作る確率的な仕組み。",
+      "related": [
+        "ai",
+        "prompt"
+      ]
+    },
+    {
+      "id": "prompt",
+      "category": "green",
+      "term": "プロンプト",
+      "reading": "ぷろんぷと",
+      "one_liner": "AIへの指示文",
+      "analogy": "AIへの「お願いメモ」。何をどうしてほしいかを伝える言葉。",
+      "where": [
+        "ChatGPTに入力する文",
+        "AIに作業を頼むとき",
+        "「プロンプトを工夫する」と言うとき"
+      ],
+      "mistake": "ざっくり頼んで期待外れの答えが返る。具体的に伝えるほど精度が上がる。",
+      "related": [
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "framework",
+      "category": "green",
+      "term": "フレームワーク",
+      "reading": "ふれーむわーく",
+      "one_liner": "開発の土台になる枠組み",
+      "analogy": "家を建てるときの「設計済みの骨組みキット」。ゼロから作らず効率化できる。",
+      "where": [
+        "アプリ開発を始めるとき",
+        "React・Next.jsなど",
+        "「何のフレームワーク？」と聞かれたとき"
+      ],
+      "mistake": "ライブラリと混同する。フレームワークは土台や流れを決める、より大きな枠組み。",
+      "related": [
+        "library",
+        "code"
+      ]
+    },
+    {
+      "id": "library",
+      "category": "green",
+      "term": "ライブラリ",
+      "reading": "らいぶらり",
+      "one_liner": "便利な部品の詰め合わせ",
+      "analogy": "既製品の部品箱。よく使う機能を自分で作らず、取り出して使える。",
+      "where": [
+        "機能を追加するとき",
+        "「npm install」で入れるもの",
+        "日付処理や通信など"
+      ],
+      "mistake": "フレームワークと混同する。ライブラリは「部品」で、必要なところで呼び出して使う。",
+      "related": [
+        "framework",
+        "open_source"
+      ]
+    },
+    {
+      "id": "ide",
+      "category": "green",
+      "term": "エディタ／IDE",
+      "reading": "えでぃた",
+      "one_liner": "コードを書く専用の道具",
+      "analogy": "コード版のワープロ。色分けやエラー指摘で書きやすくしてくれる作業場。",
+      "where": [
+        "コードを書くとき",
+        "VS Code・Cursorなど",
+        "Claude Codeを動かす場所"
+      ],
+      "mistake": "メモ帳でも書けるが、補完やエラー検出がなく効率が大きく落ちる。",
+      "related": [
+        "code"
+      ]
+    },
+    {
+      "id": "ui",
+      "category": "green",
+      "term": "UI",
+      "reading": "ゆーあい",
+      "one_liner": "見た目と操作する部分",
+      "analogy": "アプリの「顔と操作パネル」。ボタン・文字・配置など触れる部分。User Interface の略。",
+      "where": [
+        "画面のデザイン",
+        "ボタンや入力欄",
+        "「UIを整える」と言うとき"
+      ],
+      "mistake": "UI（見た目・操作）とUX（使ったときの体験）を混同する。",
+      "related": [
+        "ux",
+        "frontend"
+      ]
+    },
+    {
+      "id": "ux",
+      "category": "green",
+      "term": "UX",
+      "reading": "ゆーえっくす",
+      "one_liner": "使ったときの体験・心地よさ",
+      "analogy": "お店でいう「居心地のよさ」。使っていて快適か、迷わないかという感じ全体。User Experience の略。",
+      "where": [
+        "使いやすさを考えるとき",
+        "アプリの満足度",
+        "「UXが悪い」と言うとき"
+      ],
+      "mistake": "見た目（UI）さえ良ければUXも良いと思いがち。速さや分かりやすさも含む。",
+      "related": [
+        "ui"
+      ]
+    },
+    {
+      "id": "version",
+      "category": "green",
+      "term": "バージョン",
+      "reading": "ばーじょん",
+      "one_liner": "ソフトの版・世代",
+      "analogy": "製品の「第◯版」。改良されるたびに番号が上がる（v1.0 → v1.1 など）。",
+      "where": [
+        "アプリの更新",
+        "「最新バージョン」と言うとき",
+        "ライブラリを選ぶとき"
+      ],
+      "mistake": "常に最新が最善とは限らない。最新版が他と噛み合わず動かなくなることもある。",
+      "related": [
+        "update",
+        "library"
+      ]
+    },
+    {
+      "id": "cpu",
+      "category": "green",
+      "term": "CPU",
+      "reading": "しーぴーゆー",
+      "one_liner": "コンピュータの頭脳",
+      "analogy": "計算や判断を担当する「脳みそ」。速いほどサクサク動く。",
+      "where": [
+        "PCの性能表",
+        "動作が重いとき",
+        "パソコンを選ぶとき"
+      ],
+      "mistake": "CPU（処理の速さ）とストレージ（保存容量）を混同する。役割が別。",
+      "related": [
+        "memory",
+        "storage"
+      ]
+    },
+    {
+      "id": "memory",
+      "category": "green",
+      "term": "メモリ",
+      "reading": "めもり",
+      "one_liner": "作業を広げる一時的な机",
+      "analogy": "作業机の広さ。広いほど同時にたくさん開ける。電源を切ると机の上の物は消える。",
+      "where": [
+        "「メモリ不足」の警告",
+        "アプリをたくさん開いたとき",
+        "PCを選ぶとき"
+      ],
+      "mistake": "メモリ（作業机＝一時的）とストレージ（保管庫＝保存）を混同する。最頻出の誤解。",
+      "related": [
+        "storage",
+        "cpu"
+      ]
+    },
+    {
+      "id": "ip_address",
+      "category": "green",
+      "term": "IPアドレス",
+      "reading": "あいぴーあどれす",
+      "one_liner": "ネット上の番号の住所",
+      "analogy": "ネットにつながる機器1台ずつに割り当てられる「住所の番号」。",
+      "where": [
+        "ネットワークの設定",
+        "「IPアドレスを確認」",
+        "サーバーにアクセスするとき"
+      ],
+      "mistake": "IPアドレス（番号の住所）とドメイン（覚えやすい名前）が、別物だと知らない。",
+      "related": [
+        "domain",
+        "internet"
+      ]
+    },
+    {
+      "id": "cookie",
+      "category": "green",
+      "term": "クッキー",
+      "reading": "くっきー",
+      "one_liner": "サイトが覚える小さなメモ",
+      "analogy": "お店が渡す「会員メモ」。次に来たとき「前はこうだった」と思い出すための控え。",
+      "where": [
+        "ログイン状態の保持",
+        "「クッキーを許可しますか？」",
+        "広告の表示"
+      ],
+      "mistake": "お菓子と同じ綴りだが別物。消すとログイン情報や設定がリセットされることがある。",
+      "related": [
+        "browser",
+        "cache"
+      ]
+    },
+    {
+      "id": "encryption",
+      "category": "green",
+      "term": "暗号化",
+      "reading": "あんごうか",
+      "one_liner": "中身を読めなくする変換",
+      "analogy": "鍵をかけて他人に読めなくすること。正しい鍵を持つ人だけが元に戻せる。",
+      "where": [
+        "HTTPS通信",
+        "パスワードの保管",
+        "メッセージアプリの保護"
+      ],
+      "mistake": "暗号化していれば絶対安全と思い込む。鍵の管理が甘ければ意味がない。",
+      "related": [
+        "http",
+        "password"
+      ]
+    },
+    {
+      "id": "authentication",
+      "category": "green",
+      "term": "認証",
+      "reading": "にんしょう",
+      "one_liner": "本人かどうかを確かめる仕組み",
+      "analogy": "入り口で身分証を見せること。「確かに本人だ」と確認するステップ。",
+      "where": [
+        "ログイン",
+        "二段階認証",
+        "指紋や顔認証"
+      ],
+      "mistake": "認証（本人確認）と認可（何をしてよいかの許可）を混同する。別の段階。",
+      "related": [
+        "login",
+        "password"
+      ]
+    },
+    {
+      "id": "protocol",
+      "category": "green",
+      "term": "プロトコル",
+      "reading": "ぷろとこる",
+      "one_liner": "通信の共通ルール",
+      "analogy": "会話の「共通言語と作法」。同じルールを使うから機械同士が通じ合える。",
+      "where": [
+        "HTTP / HTTPS",
+        "メールやファイル転送",
+        "ネットワークの仕組み"
+      ],
+      "mistake": "難しそうに見えるが「お約束ごと」のこと。HTTPもプロトコルの一種。",
+      "related": [
+        "http",
+        "internet"
+      ]
+    },
+    {
+      "id": "byte",
+      "category": "green",
+      "term": "バイト",
+      "reading": "ばいと",
+      "one_liner": "データ量の基本単位",
+      "analogy": "データの「重さ」を測る単位。KB→MB→GB とおよそ1000倍ずつ大きくなる。",
+      "where": [
+        "ファイルサイズ",
+        "通信量（ギガ）",
+        "ストレージの容量"
+      ],
+      "mistake": "bit（ビット）とByte（バイト）を混同する。8ビット＝1バイト。",
+      "related": [
+        "storage",
+        "file"
+      ]
+    },
+    {
+      "id": "plugin",
+      "category": "green",
+      "term": "プラグイン",
+      "reading": "ぷらぐいん",
+      "one_liner": "後付けの拡張機能",
+      "analogy": "道具に付ける「アタッチメント」。本体に機能を追加できる差し込み式の部品。",
+      "where": [
+        "ブラウザの拡張機能",
+        "エディタに機能追加",
+        "WordPressなど"
+      ],
+      "mistake": "入れすぎると重くなったり、相性が悪く不具合の原因になったりする。",
+      "related": [
+        "ide",
+        "browser"
+      ]
+    },
+    {
+      "id": "algorithm",
+      "category": "green",
+      "term": "アルゴリズム",
+      "reading": "あるごりずむ",
+      "one_liner": "問題を解く手順",
+      "analogy": "料理の「段取り」。目的にたどり着くための、決まった手順や考え方。",
+      "where": [
+        "並べ替えや検索の処理",
+        "SNSのおすすめ表示",
+        "「アルゴリズムを改善」と言うとき"
+      ],
+      "mistake": "魔法のように思いがち。実際は「手順の組み立て方」のこと。",
+      "related": [
+        "code",
+        "function"
+      ]
+    },
+    {
+      "id": "responsive",
+      "category": "green",
+      "term": "レスポンシブ",
+      "reading": "れすぽんしぶ",
+      "one_liner": "画面サイズに合わせる作り",
+      "analogy": "伸び縮みする服。スマホでもPCでも、画面幅に応じて見やすく整う作り。",
+      "where": [
+        "Webサイト作成",
+        "スマホとPCの両対応",
+        "「レスポンシブ対応」と言うとき"
+      ],
+      "mistake": "PCで見た目が良くても、スマホで崩れることがある。両方の確認が必要。",
+      "related": [
+        "ui",
+        "css"
+      ]
+    },
+    {
+      "id": "terminal",
+      "category": "yellow",
+      "term": "ターミナル",
+      "reading": "たーみなる",
+      "one_liner": "文字でPCに命令する画面",
+      "analogy": "マウス操作の代わりに、命令文を打ち込む受付窓口。黒い画面のことが多い。",
+      "where": [
+        "Claude Codeを動かすとき",
+        "コマンドを打つとき",
+        "「npm install」するとき"
+      ],
+      "mistake": "英語の警告（warning）を全部エラーだと思って焦る。警告は止まっていないことも多い。",
+      "related": [
+        "command",
+        "cli"
+      ]
+    },
+    {
+      "id": "command",
+      "category": "yellow",
+      "term": "コマンド",
+      "reading": "こまんど",
+      "one_liner": "PCへの命令の一文",
+      "analogy": "受付に渡す「指示書」。決まった言葉を打つと、その通りに実行される。",
+      "where": [
+        "ターミナルに打つ文字",
+        "「このコマンドを実行」",
+        "npm run など"
+      ],
+      "mistake": "スペルやスペースを1つ間違えただけで動かない。コピペが安全。",
+      "related": [
+        "terminal",
+        "cli"
+      ]
+    },
+    {
+      "id": "cli",
+      "category": "yellow",
+      "term": "CLI",
+      "reading": "しーえるあい",
+      "one_liner": "文字で操作する方式",
+      "analogy": "ボタンの代わりに「言葉で頼む」操作方式。Command Line Interface の略。",
+      "where": [
+        "ターミナルでの操作",
+        "Claude Code",
+        "開発ツール全般"
+      ],
+      "mistake": "GUI（ボタン操作）に慣れていると難しく感じるが、慣れると速い。",
+      "related": [
+        "terminal",
+        "command"
+      ]
+    },
+    {
+      "id": "directory",
+      "category": "yellow",
+      "term": "ディレクトリ",
+      "reading": "でぃれくとり",
+      "one_liner": "フォルダの別の呼び方",
+      "analogy": "「フォルダ」とほぼ同じ。開発の世界ではディレクトリと呼ぶことが多い。",
+      "where": [
+        "ターミナルでの場所移動（cd）",
+        "ファイルの置き場所",
+        "「このディレクトリで実行」"
+      ],
+      "mistake": "フォルダと別物だと思いがち。ほぼ同じものを指す。",
+      "related": [
+        "folder",
+        "path"
+      ]
+    },
+    {
+      "id": "path",
+      "category": "yellow",
+      "term": "パス",
+      "reading": "ぱす",
+      "one_liner": "ファイルの場所を示す道順",
+      "analogy": "「どの棚のどの引き出しか」を示す住所。/Users/name/file.txt のような表記。",
+      "where": [
+        "ファイルを指定するとき",
+        "エラーメッセージの中",
+        "「パスが通っていない」と言うとき"
+      ],
+      "mistake": "パスを少しでも間違えると「ファイルが見つからない」エラーになる。",
+      "related": [
+        "directory",
+        "file"
+      ]
+    },
+    {
+      "id": "node",
+      "category": "yellow",
+      "term": "Node.js",
+      "reading": "のーど",
+      "one_liner": "PCでJSを動かす土台",
+      "analogy": "本来ブラウザの中で動くJavaScriptを、PC上でも動かせるようにする実行環境。",
+      "where": [
+        "開発環境の準備",
+        "「Nodeをインストール」",
+        "npmを使うとき"
+      ],
+      "mistake": "ブラウザがあればNodeも入っていると思いがち。別途インストールが必要。",
+      "related": [
+        "npm",
+        "javascript"
+      ]
+    },
+    {
+      "id": "npm",
+      "category": "yellow",
+      "term": "npm",
+      "reading": "えぬぴーえむ",
+      "one_liner": "部品を入れる管理ツール",
+      "analogy": "ライブラリ（部品）を取り寄せる「通販＆在庫管理係」。Nodeに付いてくる。",
+      "where": [
+        "「npm install」を打つとき",
+        "ライブラリの追加",
+        "package.jsonの管理"
+      ],
+      "mistake": "npmとNode.jsを別々に入れる必要があると思いがち。npmはNodeに同梱される。",
+      "related": [
+        "node",
+        "package_json"
+      ]
+    },
+    {
+      "id": "package_json",
+      "category": "yellow",
+      "term": "package.json",
+      "reading": "ぱっけーじじぇいそん",
+      "one_liner": "プロジェクトの設定台帳",
+      "analogy": "アプリの「材料表＋説明書」。使う部品（ライブラリ）やコマンドを書いた一覧。",
+      "where": [
+        "プロジェクトの根っこ",
+        "依存ライブラリの管理",
+        "「npm install」が読むファイル"
+      ],
+      "mistake": "手で書き換えて壊す。基本はnpmコマンド経由で更新するのが安全。",
+      "related": [
+        "npm",
+        "dependency"
+      ]
+    },
+    {
+      "id": "dependency",
+      "category": "yellow",
+      "term": "依存関係",
+      "reading": "いぞんかんけい",
+      "one_liner": "必要な外部部品のこと",
+      "analogy": "料理に必要な「材料リスト」。これが無いと動かない、という部品たち。",
+      "where": [
+        "package.jsonの中",
+        "「依存をインストール」",
+        "node_modules フォルダ"
+      ],
+      "mistake": "依存ライブラリのバージョン違いで、急に動かなくなることがある。",
+      "related": [
+        "package_json",
+        "library"
+      ]
+    },
+    {
+      "id": "env_var",
+      "category": "yellow",
+      "term": "環境変数",
+      "reading": "かんきょうへんすう",
+      "one_liner": "コードの外に置く設定値",
+      "analogy": "コードに直接書かず、別のメモに分けて保管する設定。",
+      "where": [
+        "APIキーを保存するとき",
+        ".envファイル",
+        "サーバーの設定"
+      ],
+      "mistake": "秘密の値をコードに直接書いてしまい、公開時に漏れる。",
+      "related": [
+        "dotenv",
+        "api_key"
+      ]
+    },
+    {
+      "id": "dotenv",
+      "category": "yellow",
+      "term": ".env（環境変数ファイル）",
+      "reading": "どっとえんぶ",
+      "one_liner": "秘密の設定をしまうファイル",
+      "analogy": "APIキーなどの秘密を入れておく「鍵付きメモ」。コードとは別に置く。",
+      "where": [
+        "プロジェクトの根っこ",
+        "APIキーの保管",
+        "「.envに書いて」と言われたとき"
+      ],
+      "mistake": ".envをGitHubに上げてしまい、中の秘密が世界中に漏れる典型事故。",
+      "related": [
+        "env_var",
+        "api_key"
+      ]
+    },
+    {
+      "id": "api_key",
+      "category": "yellow",
+      "term": "APIキー",
+      "reading": "えーぴーあいきー",
+      "one_liner": "外部サービスに入る合鍵",
+      "analogy": "会員証や合鍵。「私だよ」と証明して、サービスを使わせてもらう札。",
+      "where": [
+        "Claude Codeを起動するとき",
+        "OpenAIやGoogleの機能を使うとき",
+        ".envファイルの中"
+      ],
+      "mistake": "GitHubに上げてしまい全世界に公開 → 他人に使われ高額請求される事故が多発。",
+      "related": [
+        "env_var",
+        "dotenv"
+      ]
+    },
+    {
+      "id": "json",
+      "category": "yellow",
+      "term": "JSON",
+      "reading": "じぇいそん",
+      "one_liner": "データを書く共通の形式",
+      "analogy": "名前と値をセットで並べる「記入フォーマット」。アプリ同士のデータ交換に使う。",
+      "where": [
+        "APIのやり取り",
+        "設定ファイル",
+        "「JSONで返す」と言うとき"
+      ],
+      "mistake": "カンマや括弧を1つ間違えるだけで読み込めなくなる。",
+      "related": [
+        "api",
+        "package_json"
+      ]
+    },
+    {
+      "id": "localhost",
+      "category": "yellow",
+      "term": "localhost",
+      "reading": "ろーかるほすと",
+      "one_liner": "自分のPC自身を指す住所",
+      "analogy": "「この家＝自分のPC」を指す合言葉。作ったアプリを自分だけで試す場所。",
+      "where": [
+        "開発中のアプリを開くとき",
+        "http://localhost:3000",
+        "「ローカルで動かす」とき"
+      ],
+      "mistake": "localhostは自分のPCだけ。他の人はそのURLでは見られない。",
+      "related": [
+        "port",
+        "server"
+      ]
+    },
+    {
+      "id": "port",
+      "category": "yellow",
+      "term": "ポート",
+      "reading": "ぽーと",
+      "one_liner": "アプリごとの出入り口番号",
+      "analogy": "1台のPCの中の「部屋番号」。3000番、8080番など、アプリごとに使う窓口。",
+      "where": [
+        "localhost:3000 の数字",
+        "「ポートが使用中」エラー",
+        "サーバーの起動"
+      ],
+      "mistake": "同じポートを2つのアプリで使おうとして「ポートが既に使われている」エラーになる。",
+      "related": [
+        "localhost",
+        "server"
+      ]
+    },
+    {
+      "id": "git_commit",
+      "category": "yellow",
+      "term": "コミット（commit）",
+      "reading": "こみっと",
+      "one_liner": "変更を記録する区切り",
+      "analogy": "作業の「セーブ」。ここまでの変更に名前をつけて履歴に刻む。",
+      "where": [
+        "コードを変更した後",
+        "「コミットして」と言われたとき",
+        "Gitの基本操作"
+      ],
+      "mistake": "コミットしただけで共有されると思いがち。手元に記録されるだけ（共有はプッシュ）。",
+      "related": [
+        "git",
+        "git_push"
+      ]
+    },
+    {
+      "id": "git_push",
+      "category": "yellow",
+      "term": "プッシュ（push）",
+      "reading": "ぷっしゅ",
+      "one_liner": "記録をネットへ送る",
+      "analogy": "手元のセーブ（コミット）を、GitHubなどネット上の倉庫へアップロードする操作。",
+      "where": [
+        "コミットの後",
+        "「プッシュして」と言われたとき",
+        "GitHubへの反映"
+      ],
+      "mistake": "コミットだけで満足し、プッシュを忘れて他の人に反映されない。",
+      "related": [
+        "git_commit",
+        "github"
+      ]
+    },
+    {
+      "id": "git_clone",
+      "category": "yellow",
+      "term": "クローン（clone）",
+      "reading": "くろーん",
+      "one_liner": "リポジトリを丸ごと複製",
+      "analogy": "ネット上のプロジェクトを「まるごと自分のPCにコピーして持ってくる」操作。",
+      "where": [
+        "他人のプロジェクトを使うとき",
+        "「git clone」",
+        "開発の最初"
+      ],
+      "mistake": "zipダウンロードと混同。クローンはGitの変更履歴ごと複製する。",
+      "related": [
+        "github",
+        "repository"
+      ]
+    },
+    {
+      "id": "branch",
+      "category": "yellow",
+      "term": "ブランチ",
+      "reading": "ぶらんち",
+      "one_liner": "作業を枝分かれさせる仕組み",
+      "analogy": "木の「枝」。本流を壊さず、別の枝で新機能を試して、後で合流できる。",
+      "where": [
+        "新機能を作るとき",
+        "「ブランチを切る」",
+        "チーム開発"
+      ],
+      "mistake": "本番の枝（main）で直接作業して、壊したときに戻せなくなる。",
+      "related": [
+        "git",
+        "git_commit"
+      ]
+    },
+    {
+      "id": "markdown",
+      "category": "yellow",
+      "term": "マークダウン",
+      "reading": "まーくだうん",
+      "one_liner": "記号で書く簡単な文書形式",
+      "analogy": "「# で見出し」「- で箇条書き」のように、記号で手軽に整える書き方。",
+      "where": [
+        "READMEファイル",
+        "AIへの指示文",
+        "GitHubの文書"
+      ],
+      "mistake": "見た目の装飾だと思いがち。実は「構造」を記号で表す書き方。",
+      "related": [
+        "code",
+        "github"
+      ]
+    },
+    {
+      "id": "build",
+      "category": "yellow",
+      "term": "ビルド",
+      "reading": "びるど",
+      "one_liner": "動く形に組み立てる工程",
+      "analogy": "バラバラの材料（コード）を、実際に動く製品の形に組み立てる作業。",
+      "where": [
+        "アプリを公開する前",
+        "「npm run build」",
+        "リリース準備"
+      ],
+      "mistake": "ビルドが通る＝バグがない、ではない。文法が通っただけのことも多い。",
+      "related": [
+        "deploy",
+        "code"
+      ]
+    },
+    {
+      "id": "deploy",
+      "category": "yellow",
+      "term": "デプロイ",
+      "reading": "でぷろい",
+      "one_liner": "作ったものを公開・配置する",
+      "analogy": "完成した料理を「お店に並べて出す」こと。みんなが使える場所に置く。",
+      "where": [
+        "アプリを世に出すとき",
+        "Vercelやサーバーへ",
+        "「デプロイする」と言うとき"
+      ],
+      "mistake": "手元（localhost）で動いたから本番でも動くと油断。環境の違いで動かないことがある。",
+      "related": [
+        "build",
+        "hosting"
+      ]
+    },
+    {
+      "id": "hosting",
+      "category": "yellow",
+      "term": "ホスティング",
+      "reading": "ほすてぃんぐ",
+      "one_liner": "公開する場所を借りる仕組み",
+      "analogy": "アプリを置いて公開するための「土地・部屋を借りる」サービス。",
+      "where": [
+        "Webサイトを公開するとき",
+        "Vercel・Netlifyなど",
+        "ドメインとセットで"
+      ],
+      "mistake": "無料プランの制限（停止・速度・容量）を知らずに使い、急に止まって慌てる。",
+      "related": [
+        "deploy",
+        "server"
+      ]
+    },
+    {
+      "id": "log",
+      "category": "yellow",
+      "term": "ログ",
+      "reading": "ろぐ",
+      "one_liner": "動作の記録メモ",
+      "analogy": "アプリが残す「日記・作業記録」。何が起きたかを後から確認できる。",
+      "where": [
+        "エラーの原因調査",
+        "ターミナルの出力",
+        "「ログを見て」と言われたとき"
+      ],
+      "mistake": "エラーが出たらログを読まずに焦る。原因はたいていログに書いてある。",
+      "related": [
+        "console",
+        "config"
+      ]
+    },
+    {
+      "id": "console",
+      "category": "yellow",
+      "term": "コンソール",
+      "reading": "こんそーる",
+      "one_liner": "出力やログを見る画面",
+      "analogy": "アプリの状況を映す「モニター」。ログやエラーが流れて表示される。",
+      "where": [
+        "ブラウザの開発者ツール",
+        "ターミナルの出力欄",
+        "「console.log で確認」"
+      ],
+      "mistake": "確認用の出力（console.log）を消し忘れて、本番に残してしまう。",
+      "related": [
+        "log",
+        "terminal"
+      ]
+    },
+    {
+      "id": "config",
+      "category": "yellow",
+      "term": "設定ファイル（config）",
+      "reading": "こんふぃぐ",
+      "one_liner": "動作の設定を書くファイル",
+      "analogy": "アプリの「取扱い設定メモ」。どう動くかの指定をまとめたファイル。",
+      "where": [
+        "プロジェクトの中",
+        "○○.config.js など",
+        "挙動を変えたいとき"
+      ],
+      "mistake": "設定ファイルを1か所いじって全体が動かなくなる。控えを取ってから触る。",
+      "related": [
+        "json",
+        "package_json"
+      ]
+    },
+    {
+      "id": "import",
+      "category": "yellow",
+      "term": "インポート",
+      "reading": "いんぽーと",
+      "one_liner": "別の場所の機能を取り込む",
+      "analogy": "他のファイルや部品を「持ち込んで使う」宣言。コードの冒頭に書くことが多い。",
+      "where": [
+        "コードの先頭",
+        "ライブラリを使うとき",
+        "「importする」と言うとき"
+      ],
+      "mistake": "importのパスを間違えて「見つからない」エラーになる。",
+      "related": [
+        "export",
+        "library"
+      ]
+    },
+    {
+      "id": "export",
+      "category": "yellow",
+      "term": "エクスポート",
+      "reading": "えくすぽーと",
+      "one_liner": "機能を外から使えるようにする",
+      "analogy": "自分のファイルの部品に「持ち出しOK」の札をつけること。importの相手側。",
+      "where": [
+        "関数や値を共有するとき",
+        "コードの中",
+        "importとセットで"
+      ],
+      "mistake": "exportし忘れて、他のファイルからimportできない。",
+      "related": [
+        "import",
+        "function"
+      ]
+    },
+    {
+      "id": "syntax",
+      "category": "yellow",
+      "term": "構文",
+      "reading": "こうぶん",
+      "one_liner": "コードの文法ルール",
+      "analogy": "言語の「文法」。並べ方や記号のルールに従わないと意味が通じない。",
+      "where": [
+        "コードを書くとき",
+        "「シンタックスエラー」",
+        "言語ごとの決まり"
+      ],
+      "mistake": "カンマや括弧の閉じ忘れなど、小さな文法ミスで動かなくなる。",
+      "related": [
+        "code",
+        "comment"
+      ]
+    },
+    {
+      "id": "comment",
+      "category": "yellow",
+      "term": "コメント",
+      "reading": "こめんと",
+      "one_liner": "コード内の人間向けメモ",
+      "analogy": "コードの余白に書く「ふせん」。プログラムは無視し、人だけが読む説明。",
+      "where": [
+        "コードの説明を残すとき",
+        "// や /* */ ",
+        "後で読み返すため"
+      ],
+      "mistake": "コメントだけ直してコード本体を直し忘れ、説明と中身がズレる。",
+      "related": [
+        "code",
+        "syntax"
+      ]
+    },
+    {
+      "id": "type",
+      "category": "yellow",
+      "term": "型（タイプ）",
+      "reading": "かた",
+      "one_liner": "データの種類",
+      "analogy": "データの「種別ラベル」。文字・数値・真偽など、何の仲間かを示す。",
+      "where": [
+        "変数を作るとき",
+        "TypeScriptで",
+        "「型が合わない」エラー"
+      ],
+      "mistake": "文字の \"5\" と数値の 5 を同じだと思い、計算がおかしくなる。",
+      "related": [
+        "variable",
+        "string"
+      ]
+    },
+    {
+      "id": "string",
+      "category": "yellow",
+      "term": "文字列",
+      "reading": "もじれつ",
+      "one_liner": "文字のデータ",
+      "analogy": "「あいうえお」「Hello」など、文字を並べたデータ。引用符で囲んで書く。",
+      "where": [
+        "名前やメッセージ",
+        "ダブルクォート（\"）で囲む",
+        "コードのあちこち"
+      ],
+      "mistake": "数値の 5 と文字の \"5\" を混同。\"5\"+\"5\" が 10 ではなく \"55\" になることがある。",
+      "related": [
+        "type",
+        "number"
+      ]
+    },
+    {
+      "id": "number",
+      "category": "yellow",
+      "term": "数値",
+      "reading": "すうち",
+      "one_liner": "数のデータ",
+      "analogy": "1、3.14、100 などの「数」。計算に使えるデータ。",
+      "where": [
+        "金額や個数",
+        "計算するとき",
+        "コードの中の数字"
+      ],
+      "mistake": "文字として入力した数字は計算できない。型の変換が必要なことがある。",
+      "related": [
+        "type",
+        "string"
+      ]
+    },
+    {
+      "id": "boolean",
+      "category": "yellow",
+      "term": "真偽値（boolean）",
+      "reading": "しんぎち",
+      "one_liner": "「はい/いいえ」の2択データ",
+      "analogy": "スイッチの「オン/オフ」。true（真）か false（偽）の2つだけ。",
+      "where": [
+        "条件分岐の判定",
+        "チェックのオンオフ",
+        "「フラグ」と呼ばれるもの"
+      ],
+      "mistake": "文字の \"true\" と真偽値の true を混同する。別物。",
+      "related": [
+        "condition",
+        "type"
+      ]
+    },
+    {
+      "id": "array",
+      "category": "yellow",
+      "term": "配列",
+      "reading": "はいれつ",
+      "one_liner": "値を順番に並べた箱",
+      "analogy": "仕切りのある「お弁当箱」。複数の値を順番に詰めて、番号で取り出せる。",
+      "where": [
+        "リストを扱うとき",
+        "[1, 2, 3] のような形",
+        "データの集まり"
+      ],
+      "mistake": "番号（添え字）が0から始まることを忘れ、1つずれる。",
+      "related": [
+        "object",
+        "loop"
+      ]
+    },
+    {
+      "id": "object",
+      "category": "yellow",
+      "term": "オブジェクト",
+      "reading": "おぶじぇくと",
+      "one_liner": "名前付きで値をまとめた箱",
+      "analogy": "「ラベル付きの引き出し」。name=太郎、age=20 のように、名前と値の組で持つ。",
+      "where": [
+        "まとまったデータ",
+        "{ } で囲む形",
+        "JSONとそっくり"
+      ],
+      "mistake": "配列（順番）とオブジェクト（名前付き）の使い分けを間違える。",
+      "related": [
+        "array",
+        "json"
+      ]
+    },
+    {
+      "id": "null",
+      "category": "yellow",
+      "term": "null（ヌル）",
+      "reading": "なる",
+      "one_liner": "「何もない」を表す値",
+      "analogy": "「空っぽ」を意味する印。0や空文字とも違う、「値が無い」状態。",
+      "where": [
+        "データが未設定のとき",
+        "エラーの原因調査",
+        "「nullが返ってきた」とき"
+      ],
+      "mistake": "null（無い）を 0 や空文字と同じだと思い、想定外のエラーになる。",
+      "related": [
+        "type",
+        "variable"
+      ]
+    },
+    {
+      "id": "parameter",
+      "category": "yellow",
+      "term": "引数（パラメータ）",
+      "reading": "ひきすう",
+      "one_liner": "関数に渡す材料",
+      "analogy": "自動販売機に入れる「お金やボタンの選択」。関数に渡して結果を変える入力。",
+      "where": [
+        "関数を呼ぶとき",
+        "( ) の中に書く値",
+        "「引数を渡す」と言うとき"
+      ],
+      "mistake": "引数の順番や個数を間違えて、結果がおかしくなる。",
+      "related": [
+        "function",
+        "variable"
+      ]
+    },
+    {
+      "id": "loop",
+      "category": "yellow",
+      "term": "ループ",
+      "reading": "るーぷ",
+      "one_liner": "同じ処理の繰り返し",
+      "analogy": "「同じ作業を指定回数くり返す」仕組み。手作業のコピペを自動化する。",
+      "where": [
+        "リストを順に処理するとき",
+        "for や while",
+        "繰り返し作業"
+      ],
+      "mistake": "終了条件を間違えて、永遠に止まらない（無限ループ）。",
+      "related": [
+        "array",
+        "condition"
+      ]
+    },
+    {
+      "id": "condition",
+      "category": "yellow",
+      "term": "条件分岐（if）",
+      "reading": "じょうけんぶんき",
+      "one_liner": "場合によって処理を変える",
+      "analogy": "「もし雨なら傘を持つ」のように、状況で動きを切り替える分かれ道。",
+      "where": [
+        "if文",
+        "判定して処理を分けるとき",
+        "ボタンの有効/無効"
+      ],
+      "mistake": "条件の書き方を間違え、意図と逆の動きになる。",
+      "related": [
+        "boolean",
+        "loop"
+      ]
+    },
+    {
+      "id": "request",
+      "category": "yellow",
+      "term": "リクエスト",
+      "reading": "りくえすと",
+      "one_liner": "サーバーへの「お願い」",
+      "analogy": "レストランでの「注文」。クライアントがサーバーに「これちょうだい」と頼む。",
+      "where": [
+        "ページを開くとき",
+        "APIを呼ぶとき",
+        "「リクエストを送る」と言うとき"
+      ],
+      "mistake": "リクエスト（頼む）とレスポンス（返ってくる）の向きを混同する。",
+      "related": [
+        "response",
+        "api"
+      ]
+    },
+    {
+      "id": "response",
+      "category": "yellow",
+      "term": "レスポンス",
+      "reading": "れすぽんす",
+      "one_liner": "サーバーからの「返事」",
+      "analogy": "注文に対して出てくる「料理」。リクエストへの返答データ。",
+      "where": [
+        "APIの返り値",
+        "「レスポンスが返る」とき",
+        "データの受け取り"
+      ],
+      "mistake": "レスポンスが返る＝成功とは限らない。エラー内容が返ることもある。",
+      "related": [
+        "request",
+        "api"
+      ]
+    },
+    {
+      "id": "endpoint",
+      "category": "yellow",
+      "term": "エンドポイント",
+      "reading": "えんどぽいんと",
+      "one_liner": "APIの呼び出し先の住所",
+      "analogy": "注文を受け付ける「特定の窓口の住所」。/users などURLの末尾の部分。",
+      "where": [
+        "APIを使うとき",
+        "「このエンドポイントを叩く」",
+        "URLの設計"
+      ],
+      "mistake": "エンドポイントを1文字間違えて「見つからない（404）」になる。",
+      "related": [
+        "api",
+        "request"
+      ]
+    },
+    {
+      "id": "component",
+      "category": "yellow",
+      "term": "コンポーネント",
+      "reading": "こんぽーねんと",
+      "one_liner": "画面を作る部品",
+      "analogy": "レゴブロック。ボタンやカードを「部品」として作り、組み合わせて画面にする。",
+      "where": [
+        "ReactなどでUIを作るとき",
+        "「ボタンコンポーネント」",
+        "画面の組み立て"
+      ],
+      "mistake": "1つの部品に詰め込みすぎて、再利用できず巨大化する。",
+      "related": [
+        "frontend",
+        "ui"
+      ]
+    },
+    {
+      "id": "state",
+      "category": "yellow",
+      "term": "状態（state）",
+      "reading": "すてーと",
+      "one_liner": "画面が覚えている今の値",
+      "analogy": "アプリの「今の気分メモ」。入力中の文字やオン/オフなど、変化する現在の値。",
+      "where": [
+        "Reactなどの画面",
+        "入力やボタンの状態",
+        "「stateを更新」するとき"
+      ],
+      "mistake": "stateを直接書き換えて画面が更新されない。決められた更新方法を使う。",
+      "related": [
+        "component",
+        "variable"
+      ]
+    },
+    {
+      "id": "async",
+      "category": "yellow",
+      "term": "非同期（async）",
+      "reading": "ひどうき",
+      "one_liner": "待たずに先へ進む処理",
+      "analogy": "料理を頼んで「待つ間に他のことをする」やり方。結果は出来たら受け取る。",
+      "where": [
+        "データの読み込み",
+        "通信やファイル処理",
+        "「awaitで待つ」とき"
+      ],
+      "mistake": "結果がまだ無いのに使おうとして、空（undefined）が返る。",
+      "related": [
+        "request",
+        "function"
+      ]
+    },
+    {
+      "id": "token",
+      "category": "yellow",
+      "term": "トークン",
+      "reading": "とーくん",
+      "one_liner": "細切れにした文字の単位",
+      "analogy": "AIが文章を扱うときの「文字のかたまり」。料金や長さの数え方の単位にもなる。",
+      "where": [
+        "AI（LLM）の利用",
+        "「トークン数」",
+        "APIの料金計算"
+      ],
+      "mistake": "認証で使う「アクセストークン（合言葉）」と、AIの「文字単位」は別物。同じ言葉で混同する。",
+      "related": [
+        "llm",
+        "api"
+      ]
+    },
+    {
+      "id": "query",
+      "category": "yellow",
+      "term": "クエリ",
+      "reading": "くえり",
+      "one_liner": "データへの問い合わせ",
+      "analogy": "データベースへの「検索の注文」。「条件に合うデータをちょうだい」という依頼。",
+      "where": [
+        "データベース操作",
+        "検索やフィルタ",
+        "URLの「?」以降"
+      ],
+      "mistake": "クエリの条件を広く書きすぎて、大量のデータを取ってきて重くなる。",
+      "related": [
+        "database",
+        "request"
+      ]
+    },
+    {
+      "id": "webhook",
+      "category": "yellow",
+      "term": "Webhook",
+      "reading": "うぇぶふっく",
+      "one_liner": "出来事を自動で知らせる仕組み",
+      "analogy": "「荷物が届いたら電話して」の予約。何か起きた瞬間に自動で通知が飛ぶ。",
+      "where": [
+        "決済の完了通知",
+        "外部サービス連携",
+        "「Webhookを設定」するとき"
+      ],
+      "mistake": "受け取る側の準備をせず、通知が来ても何も起きない。",
+      "related": [
+        "api",
+        "request"
+      ]
+    },
+    {
+      "id": "migration",
+      "category": "yellow",
+      "term": "マイグレーション",
+      "reading": "まいぐれーしょん",
+      "one_liner": "DB構造の変更を管理する",
+      "analogy": "データベースの「設計変更の履歴書」。表の形を変える手順を記録して反映する。",
+      "where": [
+        "データベースの更新",
+        "「マイグレーションを実行」",
+        "テーブル追加のとき"
+      ],
+      "mistake": "本番でいきなり実行して、データを壊す。控えを取ってから行う。",
+      "related": [
+        "database",
+        "config"
+      ]
+    },
+    {
+      "id": "error",
+      "category": "red",
+      "term": "エラー",
+      "reading": "えらー",
+      "one_liner": "「うまくいかなかった」の合図",
+      "analogy": "機械が出す「ここが分からない」という張り紙。怒られているわけではない。",
+      "where": [
+        "コードを動かしたとき",
+        "アプリが止まったとき",
+        "赤い文字が出たとき"
+      ],
+      "mistake": "エラー文を読まずに閉じてしまう。実は解決のヒントがそこに書いてある。",
+      "related": [
+        "debug",
+        "warning"
+      ]
+    },
+    {
+      "id": "bug",
+      "category": "red",
+      "term": "バグ",
+      "reading": "ばぐ",
+      "one_liner": "プログラムの不具合",
+      "analogy": "仕掛けの「欠陥」。意図と違う動きをする原因。bug（虫）が語源。",
+      "where": [
+        "思った通りに動かないとき",
+        "「バグった」と言うとき",
+        "テスト中"
+      ],
+      "mistake": "エラーが出ないからバグも無いと思いがち。静かに間違うバグもある。",
+      "related": [
+        "debug",
+        "error"
+      ]
+    },
+    {
+      "id": "debug",
+      "category": "red",
+      "term": "デバッグ",
+      "reading": "でばっぐ",
+      "one_liner": "不具合を見つけて直す作業",
+      "analogy": "間違い探しをして直す作業。bug（虫）を取り除く、が語源。",
+      "where": [
+        "エラーが出たとき",
+        "動きがおかしいとき",
+        "開発時間の大半"
+      ],
+      "mistake": "あてずっぽうで直そうとする。まず原因を特定するのが先。",
+      "related": [
+        "bug",
+        "error"
+      ]
+    },
+    {
+      "id": "warning",
+      "category": "red",
+      "term": "警告（warning）",
+      "reading": "けいこく",
+      "one_liner": "エラーではない注意書き",
+      "analogy": "「このままでも動くけど、気をつけてね」という黄色信号。",
+      "where": [
+        "ターミナルの黄色い文字",
+        "ビルド時",
+        "非推奨の機能を使ったとき"
+      ],
+      "mistake": "警告を全部エラーだと思って慌てる。多くは止まらず動いている。",
+      "related": [
+        "error",
+        "deprecated"
+      ]
+    },
+    {
+      "id": "exception",
+      "category": "red",
+      "term": "例外（exception）",
+      "reading": "れいがい",
+      "one_liner": "処理中に起きる想定外",
+      "analogy": "作業中の「想定外のトラブル発生」。放っておくとそこで処理が止まる。",
+      "where": [
+        "プログラムが途中で止まるとき",
+        "「例外をキャッチ」",
+        "エラー処理"
+      ],
+      "mistake": "例外に備えず、想定外の入力でアプリ全体が落ちる。",
+      "related": [
+        "error",
+        "crash"
+      ]
+    },
+    {
+      "id": "crash",
+      "category": "red",
+      "term": "クラッシュ",
+      "reading": "くらっしゅ",
+      "one_liner": "アプリが突然落ちること",
+      "analogy": "機械が「ガクッと停止」する状態。動作が急に終了する。",
+      "where": [
+        "アプリが突然閉じるとき",
+        "「クラッシュした」",
+        "スマホアプリの強制終了"
+      ],
+      "mistake": "1回だけと放置しがち。再現する条件を控えておくと原因究明が早い。",
+      "related": [
+        "exception",
+        "freeze"
+      ]
+    },
+    {
+      "id": "freeze",
+      "category": "red",
+      "term": "フリーズ",
+      "reading": "ふりーず",
+      "one_liner": "操作を受け付けず固まる",
+      "analogy": "画面が「氷漬け」になったように、反応しなくなる状態。",
+      "where": [
+        "アプリが反応しないとき",
+        "重い処理の最中",
+        "「固まった」と言うとき"
+      ],
+      "mistake": "すぐ強制終了する。少し待つと処理が終わって戻ることもある。",
+      "related": [
+        "crash",
+        "restart"
+      ]
+    },
+    {
+      "id": "timeout",
+      "category": "red",
+      "term": "タイムアウト",
+      "reading": "たいむあうと",
+      "one_liner": "待ち時間切れの打ち切り",
+      "analogy": "「一定時間返事が無いから諦める」ルール。電話が鳴り続けて切れる感じ。",
+      "where": [
+        "通信が遅いとき",
+        "「タイムアウトしました」",
+        "サーバーの応答待ち"
+      ],
+      "mistake": "通信エラーと決めつける。実は処理が重くて時間内に終わっていないことも。",
+      "related": [
+        "error",
+        "request"
+      ]
+    },
+    {
+      "id": "status_code",
+      "category": "red",
+      "term": "ステータスコード",
+      "reading": "すてーたすこーど",
+      "one_liner": "通信結果を表す3桁番号",
+      "analogy": "受付の「結果スタンプ」。200=成功、404=見つからない、500=サーバー側エラー。",
+      "where": [
+        "APIの返事",
+        "「ステータス200」",
+        "通信の確認"
+      ],
+      "mistake": "番号の意味を知らず原因が読めない。200番台＝成功、400番台＝こちら側、500番台＝サーバー側。",
+      "related": [
+        "not_found",
+        "server_error"
+      ]
+    },
+    {
+      "id": "not_found",
+      "category": "red",
+      "term": "404 Not Found",
+      "reading": "よんまるよん",
+      "one_liner": "「見つからない」エラー",
+      "analogy": "訪ねた住所に「そんな部屋ありません」と言われる状態。",
+      "where": [
+        "ページが存在しないとき",
+        "URLの打ち間違い",
+        "リンク切れ"
+      ],
+      "mistake": "サーバーの故障だと思いがち。多くはURLやパスの間違い（こちら側の問題）。",
+      "related": [
+        "status_code",
+        "url"
+      ]
+    },
+    {
+      "id": "server_error",
+      "category": "red",
+      "term": "500 サーバーエラー",
+      "reading": "ごひゃく",
+      "one_liner": "サーバー側で起きた不具合",
+      "analogy": "お店の「厨房でトラブル発生」。注文は届いたが、奥で問題が起きた状態。",
+      "where": [
+        "APIが失敗するとき",
+        "「500が返る」",
+        "サーバーの不調"
+      ],
+      "mistake": "自分の操作ミスだと思い込む。500番台はサーバー側の問題のサイン。",
+      "related": [
+        "status_code",
+        "server"
+      ]
+    },
+    {
+      "id": "syntax_error",
+      "category": "red",
+      "term": "構文エラー",
+      "reading": "こうぶんえらー",
+      "one_liner": "文法の間違いで動かない",
+      "analogy": "文章の「てにをは」が壊れて意味が通じない状態。",
+      "where": [
+        "コードを実行したとき",
+        "「SyntaxError」",
+        "書きかけのコード"
+      ],
+      "mistake": "難しいバグだと身構える。実は括弧やカンマの閉じ忘れが大半。",
+      "related": [
+        "syntax",
+        "error"
+      ]
+    },
+    {
+      "id": "typo",
+      "category": "red",
+      "term": "タイポ",
+      "reading": "たいぽ",
+      "one_liner": "打ち間違い・スペルミス",
+      "analogy": "文字の「打ち損じ」。地味だが、エラーの最頻出原因のひとつ。",
+      "where": [
+        "変数名の打ち間違い",
+        "コマンドのスペルミス",
+        "エラーの原因調査"
+      ],
+      "mistake": "複雑な原因を探す前に、まずスペルミスを疑うべき場面が多い。",
+      "related": [
+        "syntax_error",
+        "bug"
+      ]
+    },
+    {
+      "id": "undefined",
+      "category": "red",
+      "term": "undefined",
+      "reading": "あんでぃふぁいんど",
+      "one_liner": "値が定義されていない状態",
+      "analogy": "中身を入れる前の「空の箱」。まだ何も決まっていない状態を指す。",
+      "where": [
+        "変数に値を入れる前",
+        "「undefined」エラー",
+        "データ取得の失敗時"
+      ],
+      "mistake": "undefined（未定義）と null（意図的に空）を混同する。",
+      "related": [
+        "null",
+        "variable"
+      ]
+    },
+    {
+      "id": "infinite_loop",
+      "category": "red",
+      "term": "無限ループ",
+      "reading": "むげんるーぷ",
+      "one_liner": "終わらない繰り返し",
+      "analogy": "出口のない「ぐるぐる回り続ける道」。終了条件を間違えると起きる。",
+      "where": [
+        "繰り返し処理のミス",
+        "アプリが固まる原因",
+        "CPU使用率が急上昇"
+      ],
+      "mistake": "終了条件を書き忘れる/間違えて、処理が永遠に止まらなくなる。",
+      "related": [
+        "loop",
+        "freeze"
+      ]
+    },
+    {
+      "id": "stack_trace",
+      "category": "red",
+      "term": "スタックトレース",
+      "reading": "すたっくとれーす",
+      "one_liner": "エラーが起きた足跡の記録",
+      "analogy": "「どこを通ってエラーに至ったか」の足あとリスト。原因の場所がたどれる。",
+      "where": [
+        "エラー発生時の表示",
+        "赤い文字の長い羅列",
+        "原因調査"
+      ],
+      "mistake": "長くて読み飛ばす。一番上か一番下に原因の手がかりがあることが多い。",
+      "related": [
+        "error",
+        "debug"
+      ]
+    },
+    {
+      "id": "conflict",
+      "category": "red",
+      "term": "コンフリクト（競合）",
+      "reading": "こんふりくと",
+      "one_liner": "変更がぶつかること",
+      "analogy": "同じ書類を2人が別々に書き換えて「どっちを採用？」と揉める状態。",
+      "where": [
+        "Gitでマージするとき",
+        "チーム開発",
+        "「コンフリクトが発生」"
+      ],
+      "mistake": "慌ててどちらかを消す。両方の変更を確認して手で解決するのが基本。",
+      "related": [
+        "merge",
+        "branch"
+      ]
+    },
+    {
+      "id": "merge",
+      "category": "red",
+      "term": "マージ",
+      "reading": "まーじ",
+      "one_liner": "変更を合流させること",
+      "analogy": "枝分かれした作業を「本流に合流」させる操作。川が合わさるイメージ。",
+      "where": [
+        "ブランチを統合するとき",
+        "「マージする」",
+        "プルリクエスト"
+      ],
+      "mistake": "確認せずマージして、未完成のコードを本番に混ぜてしまう。",
+      "related": [
+        "conflict",
+        "branch"
+      ]
+    },
+    {
+      "id": "rollback",
+      "category": "red",
+      "term": "ロールバック",
+      "reading": "ろーるばっく",
+      "one_liner": "前の状態に戻すこと",
+      "analogy": "「セーブポイントまで巻き戻す」操作。問題が出たら安全な状態へ戻す。",
+      "where": [
+        "デプロイの失敗時",
+        "データベースの復旧",
+        "「ロールバックする」"
+      ],
+      "mistake": "ロールバックすれば全部元通りと思いがち。間に保存したデータは戻らないことも。",
+      "related": [
+        "deploy",
+        "backup_restore"
+      ]
+    },
+    {
+      "id": "deprecated",
+      "category": "red",
+      "term": "非推奨（deprecated）",
+      "reading": "ひすいしょう",
+      "one_liner": "もう使わないで、の印",
+      "analogy": "「旧型につき、そのうち廃止」の貼り紙。今は動くが将来消える機能。",
+      "where": [
+        "ライブラリの更新",
+        "警告メッセージ",
+        "「deprecatedです」"
+      ],
+      "mistake": "動くからと放置し、ある日アップデートで完全に使えなくなる。",
+      "related": [
+        "warning",
+        "version"
+      ]
+    },
+    {
+      "id": "permission",
+      "category": "red",
+      "term": "権限エラー（permission）",
+      "reading": "けんげん",
+      "one_liner": "操作が許可されていない",
+      "analogy": "「立ち入り禁止」の札。その操作をする資格・許可が無い状態。",
+      "where": [
+        "ファイルを保存できないとき",
+        "「Permission denied」",
+        "管理者権限が必要なとき"
+      ],
+      "mistake": "バグだと思い込む。実は権限不足で、許可設定の変更が必要なことがある。",
+      "related": [
+        "authentication",
+        "error"
+      ]
+    },
+    {
+      "id": "restart",
+      "category": "red",
+      "term": "再起動",
+      "reading": "さいきどう",
+      "one_liner": "一度切って入れ直す対処",
+      "analogy": "「電源オフ→オン」。調子が悪いとき、まず試す万能の応急処置。",
+      "where": [
+        "動作がおかしいとき",
+        "アプリやPCの不調",
+        "「再起動してみて」"
+      ],
+      "mistake": "軽視されがちだが、一時的な不具合は再起動で直ることが本当に多い。",
+      "related": [
+        "freeze",
+        "cache_clear"
+      ]
+    },
+    {
+      "id": "cache_clear",
+      "category": "red",
+      "term": "キャッシュクリア",
+      "reading": "きゃっしゅくりあ",
+      "one_liner": "一時保存を消して直す対処",
+      "analogy": "古いメモを「白紙に戻す」。古いキャッシュが悪さをするとき有効。",
+      "where": [
+        "表示が古いまま更新されないとき",
+        "ブラウザの不調",
+        "「キャッシュを削除」"
+      ],
+      "mistake": "ログイン情報も一緒に消えることがある。再ログインが必要になる場合も。",
+      "related": [
+        "cache",
+        "restart"
+      ]
+    },
+    {
+      "id": "dependency_error",
+      "category": "red",
+      "term": "依存エラー",
+      "reading": "いぞんえらー",
+      "one_liner": "部品の不整合で動かない",
+      "analogy": "「材料のサイズが合わず組み立てられない」状態。部品同士のバージョン不一致など。",
+      "where": [
+        "npm installの失敗",
+        "「peer dependency」警告",
+        "環境構築のとき"
+      ],
+      "mistake": "闇雲に再インストール。エラー文の「どの部品が衝突しているか」を読むのが先。",
+      "related": [
+        "dependency",
+        "version"
+      ]
+    },
+    {
+      "id": "firewall",
+      "category": "red",
+      "term": "ファイアウォール",
+      "reading": "ふぁいあうぉーる",
+      "one_liner": "通信を見張る防火壁",
+      "analogy": "建物の「警備員＋防火壁」。怪しい通信を遮断して中を守る仕組み。",
+      "where": [
+        "会社や学校のネット",
+        "通信がブロックされるとき",
+        "セキュリティ設定"
+      ],
+      "mistake": "通信できない原因がファイアウォールの遮断なのに、アプリ側のバグだと思い込む。",
+      "related": [
+        "internet",
+        "permission"
+      ]
+    },
+    {
+      "id": "virus",
+      "category": "red",
+      "term": "ウイルス（マルウェア）",
+      "reading": "ういるす",
+      "one_liner": "害を与える悪意のプログラム",
+      "analogy": "PCに感染する「病原体」。データを盗む・壊す・勝手に動くなどの害をなす。",
+      "where": [
+        "怪しいファイルを開いたとき",
+        "セキュリティソフトの警告",
+        "不審なメールの添付"
+      ],
+      "mistake": "無料の怪しいソフトやメール添付を、安易に開いて感染する。",
+      "related": [
+        "phishing",
+        "spam"
+      ]
+    },
+    {
+      "id": "phishing",
+      "category": "red",
+      "term": "フィッシング詐欺",
+      "reading": "ふぃっしんぐ",
+      "one_liner": "偽サイトで情報を盗む詐欺",
+      "analogy": "本物そっくりの「偽の釣り針」。偽の銀行サイト等でパスワードを釣り上げる。",
+      "where": [
+        "偽の警告メール",
+        "「アカウントを確認」リンク",
+        "本物そっくりの偽サイト"
+      ],
+      "mistake": "公式そっくりのメールを信じてリンクを踏み、ID・パスワードを入力してしまう。",
+      "related": [
+        "virus",
+        "password"
+      ]
+    },
+    {
+      "id": "spam",
+      "category": "red",
+      "term": "スパム（迷惑メール）",
+      "reading": "すぱむ",
+      "one_liner": "一方的に送られる迷惑な通信",
+      "analogy": "頼んでいないのに大量に届く「チラシ・勧誘」。中に詐欺が混じることも。",
+      "where": [
+        "迷惑メールフォルダ",
+        "大量の宣伝メール",
+        "SNSの勧誘"
+      ],
+      "mistake": "興味本位でリンクを開いたり返信したりして、被害やさらなる迷惑につながる。",
+      "related": [
+        "phishing",
+        "email"
+      ]
+    },
+    {
+      "id": "backup_restore",
+      "category": "red",
+      "term": "復元（リストア）",
+      "reading": "ふくげん",
+      "one_liner": "控えから元に戻すこと",
+      "analogy": "取っておいた「控え（バックアップ）」から、壊れる前の状態に戻す操作。",
+      "where": [
+        "データが消えたとき",
+        "機種変のあと",
+        "「バックアップから復元」"
+      ],
+      "mistake": "バックアップを取っていないと復元もできない。日頃の備えが前提。",
+      "related": [
+        "backup",
+        "rollback"
+      ]
+    },
+    {
+      "id": "compatibility",
+      "category": "red",
+      "term": "互換性",
+      "reading": "ごかんせい",
+      "one_liner": "組み合わせて動くかどうか",
+      "analogy": "部品やソフトが「うまく噛み合うか」。古い版と新しい版が合わないことがある。",
+      "where": [
+        "OSやアプリの対応条件",
+        "「このバージョンに非対応」",
+        "環境を変えたとき"
+      ],
+      "mistake": "最新にすれば安心と思いがち。逆に互換性が崩れて動かなくなることがある。",
+      "related": [
+        "version",
+        "dependency"
+      ]
+    },
+    {
+      "id": "cors",
+      "category": "red",
+      "term": "CORSエラー",
+      "reading": "こるす",
+      "one_liner": "別ドメインへのアクセス制限",
+      "analogy": "「よそのお店の裏口は使わせない」というブラウザの安全ルール。許可が無いと弾く。",
+      "where": [
+        "フロントから別サイトのAPIを呼ぶとき",
+        "「CORSエラー」",
+        "ブラウザでの開発中"
+      ],
+      "mistake": "フロント側のバグだと思い込む。多くはサーバー側で許可設定が必要。",
+      "related": [
+        "request",
+        "frontend"
+      ]
+    },
+    {
+      "id": "encoding",
+      "category": "red",
+      "term": "文字化け（エンコーディング）",
+      "reading": "もじばけ",
+      "one_liner": "文字が読めない記号になる",
+      "analogy": "文字の「翻訳ルール（UTF-8など）」がズレて、別の記号に化ける現象。",
+      "where": [
+        "日本語が□や謎文字になるとき",
+        "ファイルを開いたとき",
+        "CSVの読み込み"
+      ],
+      "mistake": "ファイルが壊れたと思いがち。多くは文字コード（UTF-8など）の指定違い。",
+      "related": [
+        "file",
+        "string"
+      ]
+    },
+    {
+      "id": "gitignore",
+      "category": "red",
+      "term": ".gitignore",
+      "reading": "ぎっといぐのあ",
+      "one_liner": "Gitで追跡しない指定",
+      "analogy": "「これは記録しないで」のリスト。秘密ファイルや巨大ファイルを除外する。",
+      "where": [
+        ".gitignoreファイル",
+        ".envを除外するとき",
+        "node_modulesの除外"
+      ],
+      "mistake": ".gitignoreに入れ忘れ、.envやAPIキーをGitHubに公開してしまう。",
+      "related": [
+        "git",
+        "dotenv"
+      ]
+    },
+    {
+      "id": "node_modules",
+      "category": "red",
+      "term": "node_modules",
+      "reading": "のーどもじゅーるず",
+      "one_liner": "部品の実体が入る巨大フォルダ",
+      "analogy": "npmで集めた部品（ライブラリ）の「倉庫」。中身は膨大で重い。",
+      "where": [
+        "npm installの後にできる",
+        "プロジェクトの中",
+        "容量が大きいフォルダ"
+      ],
+      "mistake": "GitHubに上げてしまう。本来は.gitignoreで除外し、各自インストールし直すもの。",
+      "related": [
+        "dependency",
+        "npm"
+      ]
+    },
+    {
+      "id": "clean_install",
+      "category": "red",
+      "term": "クリーンインストール",
+      "reading": "くりーんいんすとーる",
+      "one_liner": "消して入れ直す対処",
+      "analogy": "散らかった部屋を「一度空にして片付け直す」。node_modulesを消して再インストール。",
+      "where": [
+        "依存エラーが直らないとき",
+        "「node_modulesを削除」",
+        "環境のリセット"
+      ],
+      "mistake": "いきなりやる前に、まずエラー文を読む。原因不明のときの最終手段に近い。",
+      "related": [
+        "node_modules",
+        "dependency_error"
+      ]
+    },
+    {
+      "id": "rate_limit",
+      "category": "red",
+      "term": "レート制限",
+      "reading": "れーとせいげん",
+      "one_liner": "一定時間あたりの回数制限",
+      "analogy": "「1分間に○回まで」の通行制限。叩きすぎると一時的に止められる。",
+      "where": [
+        "APIを短時間に大量に呼ぶとき",
+        "「429」エラー",
+        "無料プランの上限"
+      ],
+      "mistake": "エラーだと思い焦って連打する。逆効果で、少し待つのが正解のことが多い。",
+      "related": [
+        "api",
+        "request"
+      ]
+    },
+    {
+      "id": "validation",
+      "category": "red",
+      "term": "バリデーション",
+      "reading": "ばりでーしょん",
+      "one_liner": "入力内容のチェック",
+      "analogy": "受付での「記入もれ・書き間違いチェック」。正しい形式かを確かめる。",
+      "where": [
+        "フォームの入力チェック",
+        "メール形式の確認",
+        "「バリデーションエラー」"
+      ],
+      "mistake": "チェックを省いて、変なデータがそのまま保存されて後で困る。",
+      "related": [
+        "error",
+        "string"
+      ]
+    },
+    {
+      "id": "injection",
+      "category": "red",
+      "term": "インジェクション攻撃",
+      "reading": "いんじぇくしょん",
+      "one_liner": "不正な命令を紛れ込ませる攻撃",
+      "analogy": "注文票に「こっそり別の命令」を書き込んで、システムを誤動作させる手口。",
+      "where": [
+        "入力欄の悪用",
+        "SQLインジェクション",
+        "セキュリティの基本対策"
+      ],
+      "mistake": "入力をそのまま信用して使い、攻撃の入り口を作ってしまう。",
+      "related": [
+        "validation",
+        "database"
+      ]
+    },
+    {
+      "id": "xss",
+      "category": "red",
+      "term": "XSS（クロスサイトスクリプティング）",
+      "reading": "えっくすえすえす",
+      "one_liner": "悪意のスクリプトを埋め込む攻撃",
+      "analogy": "コメント欄などに「罠の仕掛け」を書き込み、見た人のブラウザで勝手に動かす手口。",
+      "where": [
+        "ユーザー入力の表示",
+        "掲示板やコメント欄",
+        "セキュリティ対策"
+      ],
+      "mistake": "入力をそのまま画面に出して、スクリプトが実行される穴を作る。",
+      "related": [
+        "injection",
+        "validation"
+      ]
+    },
+    {
+      "id": "brute_force",
+      "category": "red",
+      "term": "総当たり攻撃",
+      "reading": "そうあたりこうげき",
+      "one_liner": "パスワードを片っ端から試す攻撃",
+      "analogy": "鍵を「0000から9999まで全部試す」やり方。単純だが時間をかければ破れる。",
+      "where": [
+        "ログインの不正試行",
+        "弱いパスワードが狙われる",
+        "セキュリティの脅威"
+      ],
+      "mistake": "単純なパスワードを使い、総当たりで破られる。長く複雑にするのが対策。",
+      "related": [
+        "password",
+        "authentication"
+      ]
+    },
+    {
+      "id": "two_factor",
+      "category": "red",
+      "term": "二段階認証",
+      "reading": "にだんかいにんしょう",
+      "one_liner": "本人確認をもう1段増やす",
+      "analogy": "パスワードに加えて「合言葉のSMSコード」も要求する二重ロック。",
+      "where": [
+        "ログインの強化",
+        "SMSや認証アプリのコード",
+        "「2FA」と書かれるもの"
+      ],
+      "mistake": "面倒で設定しない。パスワード漏洩時の最後の砦になるので、有効にすべき。",
+      "related": [
+        "authentication",
+        "login"
+      ]
+    },
+    {
+      "id": "ssl_certificate",
+      "category": "red",
+      "term": "SSL証明書",
+      "reading": "えすえすえるしょうめいしょ",
+      "one_liner": "通信の安全を証明する電子証明",
+      "analogy": "サイトの「身分証明書」。本物であることと、HTTPS通信の安全を保証する。",
+      "where": [
+        "HTTPSのサイト",
+        "「証明書の期限切れ」エラー",
+        "ブラウザの鍵マーク"
+      ],
+      "mistake": "証明書エラーを無視して進む。盗聴や偽サイトの危険があるサイン。",
+      "related": [
+        "http",
+        "encryption"
+      ]
+    },
+    {
+      "id": "disk_full",
+      "category": "red",
+      "term": "容量不足",
+      "reading": "ようりょうぶそく",
+      "one_liner": "保存場所がいっぱい",
+      "analogy": "倉庫が満杯で「もう何も置けない」状態。動作が止まる原因にもなる。",
+      "where": [
+        "「ディスク容量が不足」",
+        "保存やインストールの失敗",
+        "PCが重いとき"
+      ],
+      "mistake": "原因に気づかず、不要ファイルを消さずに動かなくなる。",
+      "related": [
+        "storage",
+        "cache_clear"
+      ]
+    },
+    {
+      "id": "breaking_change",
+      "category": "red",
+      "term": "破壊的変更",
+      "reading": "はかいてきへんこう",
+      "one_liner": "互換を壊す大きな変更",
+      "analogy": "「今までのやり方が通じなくなる」アップデート。差し替えで動かなくなる。",
+      "where": [
+        "ライブラリのメジャー更新",
+        "「破壊的変更あり」",
+        "バージョンを上げたとき"
+      ],
+      "mistake": "軽い気持ちでバージョンを上げ、急に動かなくなって慌てる。",
+      "related": [
+        "deprecated",
+        "version"
+      ]
+    },
+    {
+      "id": "retry",
+      "category": "red",
+      "term": "リトライ（再試行）",
+      "reading": "りとらい",
+      "one_liner": "失敗したらもう一度試す",
+      "analogy": "電話がつながらないとき「かけ直す」。一時的な失敗は再試行で通ることがある。",
+      "where": [
+        "通信の失敗時",
+        "「リトライしますか？」",
+        "一時的なエラー"
+      ],
+      "mistake": "何度も即連打する。少し間を空けて再試行する方がうまくいく。",
+      "related": [
+        "timeout",
+        "request"
+      ]
+    }
+  ]
+}
