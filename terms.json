@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "updated_at": "2026-05-21",
+  "version": 4,
+  "updated_at": "2026-05-22",
   "terms": [
     {
       "id": "file",
@@ -2977,6 +2977,2043 @@
       "related": [
         "timeout",
         "request"
+      ]
+    },
+    {
+      "id": "game_engine",
+      "category": "yellow",
+      "term": "ゲームエンジン",
+      "reading": "げーむえんじん",
+      "one_liner": "ゲーム制作の土台ソフト",
+      "analogy": "ゲーム版の「フレームワーク」。描画・物理・音などの仕組みが最初から揃った制作キット。Unity・Unreal・Godotが代表。",
+      "where": [
+        "ゲームを作り始めるとき",
+        "Unity・Unreal・Godotを選ぶとき",
+        "「何のエンジンで作る？」と聞かれたとき"
+      ],
+      "mistake": "ゼロから全部自作しようとして消耗する。面倒な部分はエンジンが肩代わりしてくれる。",
+      "related": [
+        "unity",
+        "framework",
+        "game_loop"
+      ]
+    },
+    {
+      "id": "unity",
+      "category": "yellow",
+      "term": "Unity",
+      "reading": "ゆにてぃ",
+      "one_liner": "個人開発で定番のゲームエンジン",
+      "analogy": "2Dも3Dも作れる人気のゲームエンジン。C#という言語で動かす。スマホゲームの多くがこれ製。",
+      "where": [
+        "スマホゲームを作るとき",
+        "ゲーム開発の入門",
+        "「Unityで作った」と言うとき"
+      ],
+      "mistake": "完全無料だと思い込む。売上規模が一定を超えると有料プランが必要になる。",
+      "related": [
+        "game_engine",
+        "programming_language",
+        "asset"
+      ]
+    },
+    {
+      "id": "sprite",
+      "category": "yellow",
+      "term": "スプライト",
+      "reading": "すぷらいと",
+      "one_liner": "2Dゲームの画像素材",
+      "analogy": "ゲームに登場するキャラや背景の「1枚絵」。紙人形を画面で動かすイメージ。",
+      "where": [
+        "2Dゲームを作るとき",
+        "キャラを動かすとき",
+        "「スプライトを差し替える」とき"
+      ],
+      "mistake": "画像が大きすぎ・多すぎて動作が重くなる。サイズや枚数の管理がいる。",
+      "related": [
+        "asset",
+        "collision",
+        "game_engine"
+      ]
+    },
+    {
+      "id": "fps",
+      "category": "yellow",
+      "term": "フレームレート（FPS）",
+      "reading": "ふれーむれーと",
+      "one_liner": "1秒あたりの描画回数",
+      "analogy": "パラパラ漫画の「1秒に何枚めくるか」。高いほど動きが滑らか。60FPSが一つの目安。",
+      "where": [
+        "ゲームの滑らかさ",
+        "「FPSが落ちる」とき",
+        "動作が重いとき"
+      ],
+      "mistake": "ゲームジャンルのFPS（First Person Shooter＝一人称シューティング）と混同する。ここでは1秒間のコマ数のこと。",
+      "related": [
+        "rendering",
+        "game_loop"
+      ]
+    },
+    {
+      "id": "collision",
+      "category": "yellow",
+      "term": "当たり判定（コリジョン）",
+      "reading": "あたりはんてい",
+      "one_liner": "ものが触れたかの判定",
+      "analogy": "キャラと敵、弾と的が「ぶつかったか」を見分ける仕組み。当たればダメージ、などの起点。",
+      "where": [
+        "弾が敵に当たったとき",
+        "壁をすり抜けないようにするとき",
+        "ゲームの基本処理"
+      ],
+      "mistake": "見た目の絵と判定の範囲がズレて、当たっていないのに当たる（または当たらない）。",
+      "related": [
+        "physics_engine",
+        "sprite",
+        "game_loop"
+      ]
+    },
+    {
+      "id": "physics_engine",
+      "category": "yellow",
+      "term": "物理エンジン",
+      "reading": "ぶつりえんじん",
+      "one_liner": "重力や衝突を計算する仕組み",
+      "analogy": "物が落ちる・跳ねる・転がるといった「物理の動き」を自動で計算してくれる部品。",
+      "where": [
+        "ボールを転がすゲーム",
+        "ジャンプや落下の表現",
+        "「物理を効かせる」とき"
+      ],
+      "mistake": "何でも物理任せにして、思い通りに動かず制御が難しくなる。",
+      "related": [
+        "game_engine",
+        "collision"
+      ]
+    },
+    {
+      "id": "game_loop",
+      "category": "yellow",
+      "term": "ゲームループ",
+      "reading": "げーむるーぷ",
+      "one_liner": "毎瞬くり返す処理の心臓部",
+      "analogy": "「入力を読む→状態を更新→画面を描く」を高速でくり返す中心の流れ。パラパラ漫画を描き続ける手。",
+      "where": [
+        "ゲームの根幹の処理",
+        "毎フレームの更新",
+        "エンジンの内部"
+      ],
+      "mistake": "ループの中に重い処理を入れて、カクカク（フレーム落ち）になる。",
+      "related": [
+        "loop",
+        "fps",
+        "rendering"
+      ]
+    },
+    {
+      "id": "rendering",
+      "category": "yellow",
+      "term": "レンダリング",
+      "reading": "れんだりんぐ",
+      "one_liner": "データを絵として描き出す",
+      "analogy": "設計データをもとに、実際に「見える絵」を画面へ描き上げる工程。",
+      "where": [
+        "ゲームや3Dの描画",
+        "Webページの表示",
+        "「レンダリングが重い」とき"
+      ],
+      "mistake": "描画（レンダリング）と計算（ロジック）を一緒くたにして、重さの原因を見誤る。",
+      "related": [
+        "fps",
+        "game_loop",
+        "webgl"
+      ]
+    },
+    {
+      "id": "asset",
+      "category": "yellow",
+      "term": "アセット",
+      "reading": "あせっと",
+      "one_liner": "制作に使う素材データ",
+      "analogy": "ゲームやアプリの「材料」。画像・音・3Dモデル・フォントなど、組み込む素材一式。",
+      "where": [
+        "ゲームに画像や音を入れるとき",
+        "「アセットを読み込む」とき",
+        "Unityのアセットストア"
+      ],
+      "mistake": "拾ってきた素材を無断で使い、ライセンス（利用条件）違反になる。",
+      "related": [
+        "sprite",
+        "bgm_se",
+        "open_source"
+      ]
+    },
+    {
+      "id": "bgm_se",
+      "category": "yellow",
+      "term": "BGM・効果音（SE）",
+      "reading": "びーじーえむ",
+      "one_liner": "ゲームの音楽と効果音",
+      "analogy": "BGMは流れ続ける「背景音楽」、SE（サウンドエフェクト）はジャンプ音などの「一発の効果音」。",
+      "where": [
+        "ゲームに音を付けるとき",
+        "ボタンの効果音",
+        "「SEを鳴らす」とき"
+      ],
+      "mistake": "音量バランスを取らず、効果音だけ爆音になって不快になる。",
+      "related": [
+        "asset"
+      ]
+    },
+    {
+      "id": "save_data",
+      "category": "yellow",
+      "term": "セーブデータ",
+      "reading": "せーぶでーた",
+      "one_liner": "進行状況の保存データ",
+      "analogy": "ゲームの「しおり」。どこまで進んだか・持ち物などを記録し、次回続きから遊べる。",
+      "where": [
+        "ゲームの続きを保存するとき",
+        "ハイスコアの記録",
+        "「セーブが消えた」とき"
+      ],
+      "mistake": "端末内だけに保存して、機種変や削除でデータが消えて戻せない。",
+      "related": [
+        "storage",
+        "backup"
+      ]
+    },
+    {
+      "id": "canvas",
+      "category": "yellow",
+      "term": "Canvas（キャンバス）",
+      "reading": "きゃんばす",
+      "one_liner": "絵を描くためのWeb領域",
+      "analogy": "ブラウザの中に置く「お絵描きボード」。ここに線や画像を描いて2Dゲームやグラフを表示する。",
+      "where": [
+        "ブラウザゲームを作るとき",
+        "図やグラフの描画",
+        "HTMLの<canvas>タグ"
+      ],
+      "mistake": "普通のHTML要素のように中身を文字で編集できると思いがち。中身はコードで描く。",
+      "related": [
+        "html",
+        "rendering",
+        "webgl"
+      ]
+    },
+    {
+      "id": "webgl",
+      "category": "yellow",
+      "term": "WebGL",
+      "reading": "うぇぶじーえる",
+      "one_liner": "ブラウザで3Dを描く技術",
+      "analogy": "ブラウザにGPU（描画専用の力）を使わせて、3Dや重いグラフィックを動かす仕組み。",
+      "where": [
+        "ブラウザで3Dゲーム",
+        "重いグラフィック表現",
+        "Three.jsなどの土台"
+      ],
+      "mistake": "どの端末でも最高画質で動くと思いがち。端末の性能差で重さが大きく変わる。",
+      "related": [
+        "canvas",
+        "rendering"
+      ]
+    },
+    {
+      "id": "saas",
+      "category": "green",
+      "term": "SaaS（サース）",
+      "reading": "さーす",
+      "one_liner": "ネット越しに使う月額ソフト",
+      "analogy": "買い切りでなく「使った分だけ借りる」ソフト。ネット経由で使い、更新も自動。Notion・Slackが代表。Software as a Service の略。",
+      "where": [
+        "クラウドの業務ツール",
+        "「SaaSを作る」と言うとき",
+        "月額のWebサービス"
+      ],
+      "mistake": "インストール型ソフトと同じ感覚で、解約後もデータが手元に残ると思い込む。",
+      "related": [
+        "subscription",
+        "cloud"
+      ]
+    },
+    {
+      "id": "subscription",
+      "category": "green",
+      "term": "サブスクリプション（サブスク）",
+      "reading": "さぶすくりぷしょん",
+      "one_liner": "定額で使い続ける課金方式",
+      "analogy": "月額・年額で払い続ける「会費制」。買い切りと違い、止めると使えなくなる。",
+      "where": [
+        "月額サービスの登録",
+        "「サブスクで提供」",
+        "料金プランの設計"
+      ],
+      "mistake": "解約方法を分かりにくくして、ユーザーの不信を招く（ストア規約違反にもなりうる）。",
+      "related": [
+        "saas",
+        "payment"
+      ]
+    },
+    {
+      "id": "seo",
+      "category": "green",
+      "term": "SEO",
+      "reading": "えすいーおー",
+      "one_liner": "検索で上位に出す工夫",
+      "analogy": "Google検索で「上の方に表示されやすくする」対策。看板を人通りの多い場所に出すイメージ。Search Engine Optimization の略。",
+      "where": [
+        "サイトに人を集めたいとき",
+        "ブログやLP",
+        "「SEO対策」と言うとき"
+      ],
+      "mistake": "小手先のテクニックに走る。今は「中身が役立つか」が一番効く。",
+      "related": [
+        "search_engine",
+        "landing_page"
+      ]
+    },
+    {
+      "id": "landing_page",
+      "category": "green",
+      "term": "ランディングページ（LP）",
+      "reading": "らんでぃんぐぺーじ",
+      "one_liner": "登録や購入に導く1枚ページ",
+      "analogy": "1枚で完結する「縦長のチラシ」。訪問者を登録・購入など1つの行動に集中させる。",
+      "where": [
+        "商品やアプリの紹介",
+        "広告のリンク先",
+        "「LPを作る」と言うとき"
+      ],
+      "mistake": "あれもこれも盛り込み、何をしてほしいページか分からなくなる。",
+      "related": [
+        "seo",
+        "frontend"
+      ]
+    },
+    {
+      "id": "analytics",
+      "category": "green",
+      "term": "アクセス解析（アナリティクス）",
+      "reading": "あくせすかいせき",
+      "one_liner": "訪問者の数や動きの計測",
+      "analogy": "お店の「客数・人気商品・滞在時間」を記録する仕組み。何人来て、どこを見たかが分かる。",
+      "where": [
+        "サイトの効果測定",
+        "Google アナリティクス",
+        "「数字を見て改善」するとき"
+      ],
+      "mistake": "数字を集めるだけで満足し、改善に使わない。見て動いて初めて意味がある。",
+      "related": [
+        "ab_test",
+        "seo"
+      ]
+    },
+    {
+      "id": "ab_test",
+      "category": "green",
+      "term": "A/Bテスト",
+      "reading": "えーびーてすと",
+      "one_liner": "2案を比べて良い方を選ぶ",
+      "analogy": "ボタンの色を赤と青で出し分け、「どちらがよく押されたか」を実データで比べる方法。",
+      "where": [
+        "デザインや文言の改善",
+        "ボタンや見出しの比較",
+        "「A/Bで検証」するとき"
+      ],
+      "mistake": "一度に複数箇所を変えて、どれが効いたのか分からなくなる。変えるのは1要素ずつ。",
+      "related": [
+        "analytics",
+        "ux"
+      ]
+    },
+    {
+      "id": "cms",
+      "category": "green",
+      "term": "CMS",
+      "reading": "しーえむえす",
+      "one_liner": "コード無しでサイト更新する仕組み",
+      "analogy": "コードを書かず、管理画面から記事や写真を更新できる仕組み。WordPressが代表。Content Management System の略。",
+      "where": [
+        "ブログやコーポレートサイト",
+        "WordPress",
+        "「CMSで運用」するとき"
+      ],
+      "mistake": "プラグインを入れすぎて重くなったり、更新を怠ってセキュリティ事故を招く。",
+      "related": [
+        "plugin",
+        "hosting"
+      ]
+    },
+    {
+      "id": "oauth",
+      "category": "yellow",
+      "term": "ソーシャルログイン（OAuth）",
+      "reading": "おーおーす",
+      "one_liner": "他サービスのアカウントで入る仕組み",
+      "analogy": "「Googleでログイン」のように、既存アカウントで入る仕組み。鍵そのものは渡さず、入館許可証だけ受け取る。",
+      "where": [
+        "「Googleでログイン」ボタン",
+        "新規登録の手間を省くとき",
+        "SNS連携"
+      ],
+      "mistake": "相手にパスワードを渡していると思いがち。実際は権限の許可証（トークン）だけを渡している。",
+      "related": [
+        "authentication",
+        "token",
+        "login"
+      ]
+    },
+    {
+      "id": "payment",
+      "category": "green",
+      "term": "オンライン決済",
+      "reading": "おんらいんけっさい",
+      "one_liner": "ネット上でお金を受け取る仕組み",
+      "analogy": "ネットの「レジ」。カード情報は自前で持たず、Stripeなどの決済代行に任せるのが基本。",
+      "where": [
+        "有料サービスを売るとき",
+        "カード決済の導入",
+        "「決済を組み込む」とき"
+      ],
+      "mistake": "カード番号を自前のサーバーに保存しようとする。漏洩リスクが大きく、決済代行に任せるべき。",
+      "related": [
+        "subscription",
+        "api_key",
+        "webhook"
+      ]
+    },
+    {
+      "id": "session",
+      "category": "yellow",
+      "term": "セッション",
+      "reading": "せっしょん",
+      "one_liner": "一連のやり取りを覚える仕組み",
+      "analogy": "ログインしてからログアウトするまで「滞在中ずっと覚えておく」記憶。受付が発行する整理券のようなもの。",
+      "where": [
+        "ログイン状態の維持",
+        "カートの中身の保持",
+        "「セッションが切れた」とき"
+      ],
+      "mistake": "クッキー（手元のメモ）とセッション（サーバー側の記憶）を同じものだと思う。連携して動く別物。",
+      "related": [
+        "cookie",
+        "authentication",
+        "login"
+      ]
+    },
+    {
+      "id": "cdn",
+      "category": "yellow",
+      "term": "CDN",
+      "reading": "しーでぃーえぬ",
+      "one_liner": "近くから速く配信する仕組み",
+      "analogy": "同じ商品を「全国の倉庫」に置き、一番近い倉庫から届ける仕組み。表示が速くなる。Content Delivery Network の略。",
+      "where": [
+        "画像や動画の配信",
+        "サイトの高速化",
+        "「CDNに載せる」とき"
+      ],
+      "mistake": "更新したのに古いファイルが配られる。CDNにも前のものがキャッシュされているため。",
+      "related": [
+        "cache",
+        "hosting",
+        "server"
+      ]
+    },
+    {
+      "id": "dns",
+      "category": "yellow",
+      "term": "DNS",
+      "reading": "でぃーえぬえす",
+      "one_liner": "ドメインを住所番号に変換",
+      "analogy": "ネットの「電話帳」。example.com という名前を、機械が分かるIPアドレス（番号）に引き直す。",
+      "where": [
+        "独自ドメインの設定",
+        "「DNSが反映されない」とき",
+        "サイト公開の準備"
+      ],
+      "mistake": "設定の反映には時間がかかることを知らず、すぐ繋がらないと焦る。",
+      "related": [
+        "domain",
+        "ip_address",
+        "url"
+      ]
+    },
+    {
+      "id": "redirect",
+      "category": "yellow",
+      "term": "リダイレクト",
+      "reading": "りだいれくと",
+      "one_liner": "別のURLへ自動転送",
+      "analogy": "引っ越し先への「郵便転送届」。古いURLに来た人を自動で新しいURLへ送る。",
+      "where": [
+        "URLを変更したとき",
+        "httpからhttpsへ",
+        "「リダイレクトをかける」とき"
+      ],
+      "mistake": "転送ループ（AからB、BからAへ無限に飛ぶ）を作り、ページが開けなくなる。",
+      "related": [
+        "url",
+        "http"
+      ]
+    },
+    {
+      "id": "rest_api",
+      "category": "yellow",
+      "term": "REST API",
+      "reading": "れすとえーぴーあい",
+      "one_liner": "定番のWeb API設計流儀",
+      "analogy": "APIの「よくある作法」。住所（URL）と動作（取得・追加・更新・削除）を組み合わせてデータを操作する決まりごと。",
+      "where": [
+        "外部サービスと連携するとき",
+        "APIを設計するとき",
+        "「REST APIを叩く」とき"
+      ],
+      "mistake": "APIとREST APIを別物だと思う。RESTはAPIの作り方の一流派のこと。",
+      "related": [
+        "api",
+        "endpoint",
+        "crud"
+      ]
+    },
+    {
+      "id": "crud",
+      "category": "yellow",
+      "term": "CRUD（クラッド）",
+      "reading": "くらっど",
+      "one_liner": "データ操作の4つの基本",
+      "analogy": "データに対する「作る・読む・直す・消す」の4動作。Create・Read・Update・Delete の頭文字。",
+      "where": [
+        "データベースを扱うとき",
+        "アプリの基本機能",
+        "「CRUDを実装」するとき"
+      ],
+      "mistake": "削除（Delete）を即時の物理削除にして、誤操作で取り返しがつかなくなる。論理削除の検討も要る。",
+      "related": [
+        "database",
+        "rest_api",
+        "query"
+      ]
+    },
+    {
+      "id": "serverless",
+      "category": "yellow",
+      "term": "サーバーレス",
+      "reading": "さーばーれす",
+      "one_liner": "サーバー管理なしでコードを動かす",
+      "analogy": "サーバーという「お店」を自分で構えず、必要なときだけ厨房を借りて料理する方式。使った分だけ課金。",
+      "where": [
+        "軽い処理を動かすとき",
+        "Supabaseのエッジ関数など",
+        "「サーバーレスで組む」とき"
+      ],
+      "mistake": "「サーバーが無い」と誤解する。実際はあるが、管理を任せて意識しなくていいだけ。",
+      "related": [
+        "backend",
+        "hosting",
+        "api"
+      ]
+    },
+    {
+      "id": "docker",
+      "category": "yellow",
+      "term": "Docker（コンテナ）",
+      "reading": "どっかー",
+      "one_liner": "環境ごと箱に詰める技術",
+      "analogy": "アプリと必要な環境を「コンテナ（箱）」にまとめ、どのPCでも同じに動かす仕組み。「自分の環境では動くのに」を防ぐ。",
+      "where": [
+        "開発環境をそろえるとき",
+        "「Dockerで動かす」とき",
+        "チーム開発やデプロイ"
+      ],
+      "mistake": "仮想マシンと同じと思いがち。Dockerはより軽い「箱」で、起動が速い。",
+      "related": [
+        "dependency",
+        "deploy"
+      ]
+    },
+    {
+      "id": "spa",
+      "category": "yellow",
+      "term": "SPA（シングルページアプリ）",
+      "reading": "えすぴーえー",
+      "one_liner": "ページを再読込せず切り替える作り",
+      "analogy": "1枚のページの中身だけを差し替えて動く作り。本をめくらず「中身だけ瞬時に入れ替える」感覚。Single Page Application の略。",
+      "where": [
+        "ReactなどでWebアプリを作るとき",
+        "画面遷移が速いサイト",
+        "「SPAで作る」とき"
+      ],
+      "mistake": "SPAは初回の読み込みが重くなりがち＆SEOに弱い面がある。万能ではない。",
+      "related": [
+        "frontend",
+        "framework",
+        "seo"
+      ]
+    },
+    {
+      "id": "pwa",
+      "category": "yellow",
+      "term": "PWA",
+      "reading": "ぴーだぶりゅーえー",
+      "one_liner": "アプリ風に使えるWebサイト",
+      "analogy": "Webサイトなのに、ホーム画面に追加してアプリのように起動・オフライン利用できる仕組み。Progressive Web App の略。",
+      "where": [
+        "ストアを通さず配布したいとき",
+        "オフライン対応のWeb",
+        "「PWA化する」とき"
+      ],
+      "mistake": "ネイティブアプリと完全に同じと思いがち。使える端末機能には制限がある。",
+      "related": [
+        "app",
+        "frontend",
+        "cache"
+      ]
+    },
+    {
+      "id": "websocket",
+      "category": "yellow",
+      "term": "WebSocket",
+      "reading": "うぇぶそけっと",
+      "one_liner": "つなぎっぱなしの双方向通信",
+      "analogy": "普通の通信が「都度の手紙」なら、WebSocketは「電話をつなぎっぱなし」。リアルタイムに双方向でやり取りできる。",
+      "where": [
+        "チャットアプリ",
+        "リアルタイム対戦ゲーム",
+        "「WebSocketで接続」するとき"
+      ],
+      "mistake": "普通のリクエスト/レスポンスと混同する。接続を保ったまま双方向に送り合える点が違う。",
+      "related": [
+        "request",
+        "response",
+        "http"
+      ]
+    },
+    {
+      "id": "claude_code",
+      "category": "green",
+      "term": "Claude Code",
+      "reading": "くろーどこーど",
+      "one_liner": "自律的に開発するAIツール",
+      "analogy": "指示を渡すと、自分でコードを探して直し・コマンドも実行する「AIの開発アシスタント」。主にターミナルで動く。Anthropic製。",
+      "where": [
+        "ターミナルでアプリを作るとき",
+        "コードの修正を任せるとき",
+        "バイブコーディング"
+      ],
+      "mistake": "「絶対に間違えない」と思い込む。実行内容は人間が確認すべきで、ハルシネーション（それっぽい嘘）も起きる。",
+      "related": [
+        "cli",
+        "ai",
+        "cursor"
+      ]
+    },
+    {
+      "id": "cursor",
+      "category": "green",
+      "term": "Cursor",
+      "reading": "かーそる",
+      "one_liner": "AI内蔵のコードエディタ",
+      "analogy": "VS Codeを土台に作り直した「AI前提のエディタ」。補完・チャット・複数ファイル編集が最初から組み込まれている。",
+      "where": [
+        "AIでコードを書くとき",
+        "VS Codeから乗り換えるとき",
+        "「Cursorで開発」と言うとき"
+      ],
+      "mistake": "VS Codeの拡張機能だと思いがち。実際はVS Codeを土台にした別の独立アプリ。",
+      "related": [
+        "ide",
+        "claude_code",
+        "ai"
+      ]
+    },
+    {
+      "id": "mcp",
+      "category": "yellow",
+      "term": "MCP（Model Context Protocol）",
+      "reading": "えむしーぴー",
+      "one_liner": "AIと外部ツールをつなぐ共通規格",
+      "analogy": "AIに「USB-Cの差込口」をつける取り決め。DBやファイル・外部APIなどにAIをつなぐ共通の作法。Anthropicが2024年に発表。",
+      "where": [
+        "AIに外部ツールを使わせるとき",
+        "「MCPサーバーを入れる」とき",
+        "AIエージェントの拡張"
+      ],
+      "mistake": "MCP自体が賢いわけではない。つないだ先のツールができることが増えるだけ。",
+      "related": [
+        "ai_agent",
+        "api",
+        "ai"
+      ]
+    },
+    {
+      "id": "ai_agent",
+      "category": "green",
+      "term": "AIエージェント",
+      "reading": "えーあいえーじぇんと",
+      "one_liner": "自分で動いて作業するAI",
+      "analogy": "目標を渡すと、手順を考え→ツールを使い→結果を見て次を調整する「自走するAI」。受け身のチャットとの違いはここ。",
+      "where": [
+        "AIに複数手順の作業を任せるとき",
+        "「エージェントが実行」と言うとき",
+        "作業の自動化"
+      ],
+      "mistake": "「賢いチャット＝エージェント」ではない。違いは賢さでなく、自分で行動（ツール実行）を起こすかどうか。",
+      "related": [
+        "ai",
+        "mcp",
+        "prompt"
+      ]
+    },
+    {
+      "id": "context_window",
+      "category": "green",
+      "term": "コンテキストウィンドウ",
+      "reading": "こんてきすとうぃんどう",
+      "one_liner": "AIが一度に扱える情報量の枠",
+      "analogy": "AIの「机の広さ」。指示・会話履歴・入力・出力すべてが合算でこの枠に収まる必要がある。枠の外はAIには見えない。",
+      "where": [
+        "長い会話でAIが前を忘れるとき",
+        "大きなコードを渡すとき",
+        "「コンテキストが足りない」とき"
+      ],
+      "mistake": "入力できる長さの話だと思いがち。AIの出力分も同じ枠を食う。枠が大きくても中盤を取りこぼすことがある。",
+      "related": [
+        "token",
+        "llm",
+        "ai"
+      ]
+    },
+    {
+      "id": "hallucination",
+      "category": "green",
+      "term": "ハルシネーション",
+      "reading": "はるしねーしょん",
+      "one_liner": "AIがもっともらしい嘘を作ること",
+      "analogy": "AIが事実でない内容を、自信ありげに流暢に言う現象。「次に来そうな言葉」を予測する仕組みゆえの副作用。",
+      "where": [
+        "AIの回答を鵜呑みにするとき",
+        "事実確認が要る場面",
+        "存在しないAPIや関数を提案されたとき"
+      ],
+      "mistake": "バグや故障だと思いがち。仕組み上ゼロにはできない。「それっぽいから正しい」は危険で、必ず裏取りが要る。",
+      "related": [
+        "ai",
+        "llm",
+        "prompt"
+      ]
+    },
+    {
+      "id": "fine_tuning",
+      "category": "yellow",
+      "term": "ファインチューニング",
+      "reading": "ふぁいんちゅーにんぐ",
+      "one_liner": "学習済みAIを用途に微調整する",
+      "analogy": "完成済みのAIに追加データを学ばせ、特定の口調やタスクに寄せる「追い稽古」。ゼロから作るより安く特化できる。",
+      "where": [
+        "AIを特定用途に寄せたいとき",
+        "専用モデルを作るとき",
+        "「ファインチューニングする」とき"
+      ],
+      "mistake": "最新情報や社内文書を覚えさせる手段だと誤解しがち。知識を足すなら多くはRAGの方が適切。",
+      "related": [
+        "machine_learning",
+        "rag",
+        "llm"
+      ]
+    },
+    {
+      "id": "machine_learning",
+      "category": "green",
+      "term": "機械学習",
+      "reading": "きかいがくしゅう",
+      "one_liner": "データからパターンを学ぶ手法",
+      "analogy": "人がルールを書く代わりに、大量のデータから「規則性」を学んで予測・判断させるやり方。AIの土台の分野。",
+      "where": [
+        "AIの仕組みの話",
+        "迷惑メール判定や予測",
+        "「機械学習で〜」と言うとき"
+      ],
+      "mistake": "機械学習＝ChatGPTと思いがち。LLMはその一部にすぎず、機械学習はもっと広い（予測や分類なども含む）。",
+      "related": [
+        "ai",
+        "llm",
+        "embedding"
+      ]
+    },
+    {
+      "id": "embedding",
+      "category": "yellow",
+      "term": "埋め込み（embedding）",
+      "reading": "うめこみ",
+      "one_liner": "意味を数値の並びに変換したもの",
+      "analogy": "文章の「意味」を座標（数値の列）に変換したもの。意味が近い文ほど近くに配置され、意味で探せるようになる。",
+      "where": [
+        "意味で検索する仕組み",
+        "RAGの内部",
+        "「ベクトル化する」とき"
+      ],
+      "mistake": "キーワード一致の上位互換と思いがち。完全一致や厳密な絞り込みは苦手で、用途が違う。",
+      "related": [
+        "rag",
+        "machine_learning",
+        "database"
+      ]
+    },
+    {
+      "id": "rag",
+      "category": "yellow",
+      "term": "RAG",
+      "reading": "らぐ",
+      "one_liner": "外部情報を渡してAIに答えさせる",
+      "analogy": "AIに答えさせる前に、関連資料を検索して取り出し、プロンプトに添えて渡す方式。学習し直さず最新・専用の知識を扱える。",
+      "where": [
+        "社内文書をAIに答えさせるとき",
+        "最新情報を扱わせたいとき",
+        "「RAGを組む」とき"
+      ],
+      "mistake": "モデルを再学習させると誤解しがち。実際は回答時に情報を渡すだけ。資料が悪ければハルシネーションは起きる。",
+      "related": [
+        "embedding",
+        "hallucination",
+        "prompt"
+      ]
+    },
+    {
+      "id": "testflight",
+      "category": "yellow",
+      "term": "TestFlight",
+      "reading": "てすとふらいと",
+      "one_liner": "Appleの公開前テスト配布",
+      "analogy": "App Store公開前のアプリを、招待した人に配って試してもらうAppleの仕組み。本番公開とは別物。",
+      "where": [
+        "アプリを公開前に試すとき",
+        "ベータ版の配布",
+        "「TestFlightで配る」とき"
+      ],
+      "mistake": "TestFlight配布＝App Store公開ではない（招待制で一般には見えない）。各ビルドは90日で期限切れになる。",
+      "related": [
+        "build_number",
+        "deploy",
+        "app"
+      ]
+    },
+    {
+      "id": "provisioning_profile",
+      "category": "yellow",
+      "term": "プロビジョニングプロファイル",
+      "reading": "ぷろびじょにんぐぷろふぁいる",
+      "one_liner": "iOSアプリの動作許可証",
+      "analogy": "「誰の・どのアプリが・どの端末で・いつまで・どの機能を使ってよいか」を束ねた署名用ファイル。無いと実機で動かせない。",
+      "where": [
+        "iOSアプリのビルド",
+        "実機テストの準備",
+        "署名エラーのとき"
+      ],
+      "mistake": "証明書（開発者の身元）とは別物。期限切れや機能追加時の更新忘れでハマる。Expo/EASだと自動管理されることが多い。",
+      "related": [
+        "build",
+        "deploy",
+        "ssl_certificate"
+      ]
+    },
+    {
+      "id": "build_number",
+      "category": "yellow",
+      "term": "ビルド番号",
+      "reading": "びるどばんごう",
+      "one_liner": "同じ版の中の通し番号",
+      "analogy": "バージョン番号（1.2.0）がユーザー向けの「版」なら、ビルド番号はアップロードごとに増やす内部の「提出回数」。",
+      "where": [
+        "ストアに再提出するとき",
+        "アップロードエラーのとき",
+        "リジェクト修正の再提出"
+      ],
+      "mistake": "再提出のたびにバージョン番号を上げる必要はなく、ビルド番号だけ上げればよいことが多い。同じ番号で再提出するとエラー。",
+      "related": [
+        "version",
+        "build",
+        "deploy"
+      ]
+    },
+    {
+      "id": "iap",
+      "category": "green",
+      "term": "アプリ内課金（IAP）",
+      "reading": "あぷりないかきん",
+      "one_liner": "アプリ内でデジタル商品を売る仕組み",
+      "analogy": "アプリの中でコイン・広告削除・サブスクなどを買う仕組み。デジタル財はストアの課金を通すのが原則（手数料あり）。",
+      "where": [
+        "有料機能を売るとき",
+        "サブスクの導入",
+        "「課金を実装する」とき"
+      ],
+      "mistake": "実装したのにストアにIAP商品を登録・審査提出し忘れる定番ミス。デジタル財で外部決済を勝手に埋めると審査リジェクト。",
+      "related": [
+        "subscription",
+        "payment",
+        "app"
+      ]
+    },
+    {
+      "id": "push_notification",
+      "category": "yellow",
+      "term": "プッシュ通知",
+      "reading": "ぷっしゅつうち",
+      "one_liner": "サーバーから端末へ送る通知",
+      "analogy": "「自分のサーバー→Appleなどの通知サービス→ユーザー端末」と届く呼びかけ。端末ごとの宛先（トークン）に送る。",
+      "where": [
+        "お知らせを送るとき",
+        "リマインダー機能",
+        "「プッシュを送る」とき"
+      ],
+      "mistake": "受理されても端末に必ず届く保証はない（オフライン・通知オフ等で届かない）。「必ず届く」前提で設計すると事故る。",
+      "related": [
+        "notification",
+        "server",
+        "token"
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "category": "green",
+      "term": "ChatGPT",
+      "reading": "ちゃっとじーぴーてぃー",
+      "one_liner": "OpenAIの対話型AIサービス",
+      "analogy": "文章で質問すると文章で答えてくれるAIサービス。2022年末に登場し生成AIブームの火付け役。OpenAIが運営。",
+      "where": [
+        "AIに質問・相談するとき",
+        "文章やコードの下書き",
+        "「ChatGPTに聞く」とき"
+      ],
+      "mistake": "サービス名であって、頭脳であるモデル（GPTシリーズ）とは別。答えがもっともらしくても間違うことがある（ハルシネーション）。",
+      "related": [
+        "ai",
+        "llm",
+        "hallucination"
+      ]
+    },
+    {
+      "id": "gemini",
+      "category": "green",
+      "term": "Gemini",
+      "reading": "じぇみに",
+      "one_liner": "GoogleのAIサービス",
+      "analogy": "Googleが提供する生成AI。テキストだけでなく画像や音声も扱えるのが持ち味。旧名はBard。",
+      "where": [
+        "AIに質問するとき",
+        "Google系サービスとの連携",
+        "ChatGPTの対抗として"
+      ],
+      "mistake": "旧「Bard」が改名したもの。サービス名であり、中の各モデルとは呼び分けられる。",
+      "related": [
+        "ai",
+        "chatgpt",
+        "multimodal"
+      ]
+    },
+    {
+      "id": "github_copilot",
+      "category": "green",
+      "term": "GitHub Copilot",
+      "reading": "ぎっとはぶこぱいろっと",
+      "one_liner": "コードを補助するAIツール",
+      "analogy": "エディタの中でコードの続きを提案してくれるAI。GitHub（Microsoft傘下）製。指示で自律編集するエージェントモードもある。",
+      "where": [
+        "VS Codeでコードを書くとき",
+        "コードの自動補完",
+        "AI支援の開発"
+      ],
+      "mistake": "Cursor（AI内蔵の独立エディタ）やClaude Code（ターミナルのエージェント）と立ち位置が違う。Copilotは既存エディタへの後付け補助。",
+      "related": [
+        "cursor",
+        "claude_code",
+        "ide"
+      ]
+    },
+    {
+      "id": "generative_ai",
+      "category": "green",
+      "term": "生成AI",
+      "reading": "せいせいえーあい",
+      "one_liner": "新しいものを作り出すAI",
+      "analogy": "文章・画像・音楽・コードなどを「創り出す」AI。分析・予測する従来のAIと違い、創作するのが特徴。",
+      "where": [
+        "ChatGPTや画像生成",
+        "「生成AIで作る」とき",
+        "AIブームの中心"
+      ],
+      "mistake": "AI全体＝生成AIではない。迷惑メール判定や予測のような分析型の従来AIもあり、生成AIはその一分野。",
+      "related": [
+        "ai",
+        "llm",
+        "image_gen_ai"
+      ]
+    },
+    {
+      "id": "image_gen_ai",
+      "category": "green",
+      "term": "画像生成AI",
+      "reading": "がぞうせいせいえーあい",
+      "one_liner": "文章から画像を作るAI",
+      "analogy": "「こういう絵」と文章で指示すると画像を描き出すAI。MidjourneyやStable Diffusionなどが代表。",
+      "where": [
+        "アプリの素材を作るとき",
+        "イラストや写真風画像",
+        "「AIで画像を出す」とき"
+      ],
+      "mistake": "ツールごとに得意が違う（芸術性・指示の忠実さ・自分のPCで動くか）。著作権や利用条件の確認も要る。",
+      "related": [
+        "generative_ai",
+        "ai",
+        "asset"
+      ]
+    },
+    {
+      "id": "vibe_coding",
+      "category": "green",
+      "term": "バイブコーディング",
+      "reading": "ばいぶこーでぃんぐ",
+      "one_liner": "AIに任せて雰囲気で作る開発",
+      "analogy": "AIに「こういうもの作って」と言葉で頼み、細かくコードを読まずに結果を見て直していく作り方。2025年に広まった言葉。",
+      "where": [
+        "AIでアプリを作るとき",
+        "コードが読めなくても作るとき",
+        "この辞典が想定する開発スタイル"
+      ],
+      "mistake": "本来はラフな試作向き。中身を理解せず本番システムまで雑に作ると、後で直せず詰まりやすい。だから用語を知る価値がある。",
+      "related": [
+        "claude_code",
+        "ai",
+        "prompt"
+      ]
+    },
+    {
+      "id": "system_prompt",
+      "category": "yellow",
+      "term": "システムプロンプト",
+      "reading": "しすてむぷろんぷと",
+      "one_liner": "AIの振る舞いの土台を決める指示",
+      "analogy": "毎回の質問より上位の「全体ルール設定」。口調・役割・禁止事項などをあらかじめ決め、会話中ずっと効く。",
+      "where": [
+        "AIアプリを作るとき",
+        "AIの役割を固定したいとき",
+        "開発者がアプリに仕込む"
+      ],
+      "mistake": "通常のプロンプト（その場の質問）と階層が違う。一般ユーザーは普段直接書かず、開発側が設定することが多い。",
+      "related": [
+        "prompt",
+        "prompt_engineering",
+        "llm"
+      ]
+    },
+    {
+      "id": "token_billing",
+      "category": "yellow",
+      "term": "トークン課金",
+      "reading": "とーくんかきん",
+      "one_liner": "処理した文章量で課金する方式",
+      "analogy": "AIのAPIは、扱った文章を「トークン」という細かい単位で数え、その量に応じて課金する。入力分も出力分も対象。",
+      "where": [
+        "AIのAPIを使うとき",
+        "料金の見積もり",
+        "「トークン数で課金」と言うとき"
+      ],
+      "mistake": "トークン＝単語ではない（日本語は1文字で複数トークンのことも）。月額固定と違い、長文や大量呼び出しで料金が膨らむ。",
+      "related": [
+        "token",
+        "api",
+        "rate_limit"
+      ]
+    },
+    {
+      "id": "nocode_lowcode",
+      "category": "green",
+      "term": "ノーコード・ローコード",
+      "reading": "のーこーどろーこーど",
+      "one_liner": "コードをほぼ書かずに作る手法",
+      "analogy": "ノーコードは部品をドラッグ＆ドロップでコードを書かず作る。ローコードは大部分を画面操作で作り、少しだけコードを書く中間。",
+      "where": [
+        "コードを書かずアプリを作るとき",
+        "業務ツールの内製",
+        "「ノーコードで作った」とき"
+      ],
+      "mistake": "何でも自由に作れるわけではない。ツールが用意した範囲に制限され、独自・複雑な機能には通常開発が要る。",
+      "related": [
+        "code",
+        "programming_language",
+        "framework"
+      ]
+    },
+    {
+      "id": "multimodal",
+      "category": "green",
+      "term": "マルチモーダル",
+      "reading": "まるちもーだる",
+      "one_liner": "複数種類の情報を扱えるAI",
+      "analogy": "テキストだけでなく画像・音声・動画など複数の形式（モダリティ）を一緒に扱えるAIの性質。写真を見せて説明させる、など。",
+      "where": [
+        "画像を読ませるAI",
+        "音声対応のAI",
+        "最新モデルの特徴"
+      ],
+      "mistake": "「画像も作れる」こととは別。主に「いろいろな形式を入力・理解できる」性質を指す。",
+      "related": [
+        "ai",
+        "llm",
+        "image_gen_ai"
+      ]
+    },
+    {
+      "id": "temperature",
+      "category": "yellow",
+      "term": "温度（temperature）",
+      "reading": "おんど",
+      "one_liner": "生成のランダムさを決める設定",
+      "analogy": "AIの答えの「自由度つまみ」。低いと毎回ほぼ同じで堅実、高いと多様で創造的だが脱線しやすい。",
+      "where": [
+        "AIのAPI設定",
+        "出力のばらつき調整",
+        "「temperatureを下げる」とき"
+      ],
+      "mistake": "高くすれば賢くなるわけではない。あくまで答えのばらつき調整で、上げすぎると支離滅裂になりやすい。",
+      "related": [
+        "llm",
+        "prompt",
+        "api"
+      ]
+    },
+    {
+      "id": "prompt_engineering",
+      "category": "green",
+      "term": "プロンプトエンジニアリング",
+      "reading": "ぷろんぷとえんじにありんぐ",
+      "one_liner": "指示文の書き方を工夫する技術",
+      "analogy": "AIから望む答えを引き出すための指示の設計。役割を与える・手順を分ける・例を見せる・形式を指定する、などの工夫。",
+      "where": [
+        "AIにうまく頼みたいとき",
+        "回答精度を上げるとき",
+        "「プロンプトを工夫する」とき"
+      ],
+      "mistake": "特別な呪文があるわけではない。本質は「明確に・具体的に伝える」こと。",
+      "related": [
+        "prompt",
+        "system_prompt",
+        "llm"
+      ]
+    },
+    {
+      "id": "chatbot",
+      "category": "green",
+      "term": "チャットボット",
+      "reading": "ちゃっとぼっと",
+      "one_liner": "入力に応答する対話プログラム",
+      "analogy": "聞かれたら答える「受け身」の対話プログラム。Webの問い合わせ窓口などが典型。",
+      "where": [
+        "サイトの自動応答",
+        "カスタマーサポート",
+        "「チャットボットを置く」とき"
+      ],
+      "mistake": "AIエージェントとの違いに注意。チャットボットは答えて止まる。エージェントは自分で計画し作業を完了まで進める。",
+      "related": [
+        "ai_agent",
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "ai_model",
+      "category": "green",
+      "term": "モデル（AIモデル）",
+      "reading": "もでる",
+      "one_liner": "学習済みのAIの頭脳本体",
+      "analogy": "大量のデータで学習させた「AIの脳みそ」。入力から出力を計算する仕組みそのもの。GPTやClaudeなどが具体名。",
+      "where": [
+        "AIの中身の話",
+        "「どのモデルを使う？」",
+        "モデルの切り替え"
+      ],
+      "mistake": "サービス名（ChatGPT等）とモデル名は別。同じサービスでも複数モデルを切り替えられ、賢さ・速さ・料金が変わる。",
+      "related": [
+        "ai",
+        "llm",
+        "machine_learning"
+      ]
+    },
+    {
+      "id": "app_store_connect",
+      "category": "yellow",
+      "term": "App Store Connect",
+      "reading": "あっぷすとあこねくと",
+      "one_liner": "iOSアプリの申請・運営画面",
+      "analogy": "Appleのアプリ管理サイト。情報登録・ビルド提出・審査・価格設定・TestFlight配信・売上確認をここで行う。年99ドルの登録が前提。",
+      "where": [
+        "iOSアプリを申請するとき",
+        "スクショや説明文の登録",
+        "審査に提出するとき"
+      ],
+      "mistake": "コードを書く・ビルドする場所ではない（それはXcodeやEAS）。ここは申請と運営の窓口。",
+      "related": [
+        "app_review",
+        "testflight",
+        "deploy"
+      ]
+    },
+    {
+      "id": "play_console",
+      "category": "yellow",
+      "term": "Google Play Console",
+      "reading": "ぐーぐるぷれいこんそーる",
+      "one_liner": "Androidアプリの申請・運営画面",
+      "analogy": "Googleのアプリ管理サイト。App Store Connectのandroid版。登録料は初回25ドルの一括のみ。",
+      "where": [
+        "Androidアプリを申請するとき",
+        "ストア情報の登録",
+        "テスト配信"
+      ],
+      "mistake": "新規個人アカウントは公開前に「クローズドテストを一定人数・期間」が必須で、ここでハマりやすい。",
+      "related": [
+        "app_review",
+        "app_store_connect",
+        "deploy"
+      ]
+    },
+    {
+      "id": "app_review",
+      "category": "yellow",
+      "term": "ストア審査",
+      "reading": "すとあしんさ",
+      "one_liner": "公開前のアプリ審査",
+      "analogy": "AppleやGoogleが、ガイドライン違反やバグ・不適切な内容がないか公開前にチェックする工程。通って初めて公開できる。",
+      "where": [
+        "アプリを提出した後",
+        "審査待ちのとき",
+        "アップデートのたび"
+      ],
+      "mistake": "一度通れば終わりではなく毎回ある。バグだけでなくプライバシー表記・課金・年齢区分などメタ情報の不備でも落ちる。",
+      "related": [
+        "rejection",
+        "app_store_connect",
+        "app"
+      ]
+    },
+    {
+      "id": "rejection",
+      "category": "yellow",
+      "term": "リジェクト",
+      "reading": "りじぇくと",
+      "one_liner": "審査で却下されること",
+      "analogy": "審査でガイドライン番号（例：2.1）付きで却下されること。修正して再提出すれば再審査される。回数制限はない。",
+      "where": [
+        "審査に落ちたとき",
+        "却下通知のとき",
+        "再提出の前"
+      ],
+      "mistake": "失敗ではなく通常工程。コードのバグより、アカウント削除機能の欠如や権限説明不足などメタ要因が原因のことが多い。",
+      "related": [
+        "app_review",
+        "build_number",
+        "app"
+      ]
+    },
+    {
+      "id": "react_native",
+      "category": "green",
+      "term": "React Native",
+      "reading": "りあくとねいてぃぶ",
+      "one_liner": "1つのコードで両OS作る土台",
+      "analogy": "Meta製の開発フレームワーク。JS/TypeScriptで書いた1つのコードからiOSとAndroid両方を作れる。UIは本物のネイティブ部品。",
+      "where": [
+        "スマホアプリを作るとき",
+        "iOS/Android同時開発",
+        "Expoの土台"
+      ],
+      "mistake": "「Webサイトをアプリ化する技術」ではない。素のままは環境構築が大変なので、初心者は次のExpo経由が普通。",
+      "related": [
+        "expo",
+        "framework",
+        "native_app"
+      ]
+    },
+    {
+      "id": "expo",
+      "category": "green",
+      "term": "Expo",
+      "reading": "えくすぽ",
+      "one_liner": "React Native開発を楽にするツール群",
+      "analogy": "React Nativeの「下ごしらえキット＋クラウド工場」。環境構築なしで始められ、Expo Goで即プレビュー、EAS Buildでストア用ビルドを作る。",
+      "where": [
+        "React Nativeで開発するとき",
+        "Expo Goで実機確認",
+        "EAS Buildでビルド"
+      ],
+      "mistake": "「Expo Goで動いた＝ストアに出せる」ではない。配布にはEAS Buildでのビルドが必要。",
+      "related": [
+        "react_native",
+        "build",
+        "deploy"
+      ]
+    },
+    {
+      "id": "native_app",
+      "category": "green",
+      "term": "ネイティブアプリ",
+      "reading": "ねいてぃぶあぷり",
+      "one_liner": "OS専用に作られたアプリ",
+      "analogy": "iOSはSwift、AndroidはKotlinなどOS専用の言語で作るアプリ。OS機能をフルに使え、動作が最も速い。",
+      "where": [
+        "アプリの作り方の分類",
+        "パフォーマンス重視のとき",
+        "「ネイティブで作る」とき"
+      ],
+      "mistake": "React Native製も「ストアに並ぶネイティブアプリ」として配布される（UIは本物の部品）。狭く捉えると混乱する。",
+      "related": [
+        "react_native",
+        "cross_platform",
+        "app"
+      ]
+    },
+    {
+      "id": "cross_platform",
+      "category": "green",
+      "term": "クロスプラットフォーム",
+      "reading": "くろすぷらっとふぉーむ",
+      "one_liner": "1コードで複数OS対応する方式",
+      "analogy": "1つのコードからiOS/Android両方を作る方式の総称。React NativeやFlutterが代表。WebView型の「ハイブリッド」もこの仲間。",
+      "where": [
+        "開発方式を選ぶとき",
+        "両OS対応したいとき",
+        "「クロスプラットフォームで作る」とき"
+      ],
+      "mistake": "「クロスプラットフォーム＝遅い」は古い偏見。React Nativeのようなネイティブ部品型は十分速い。",
+      "related": [
+        "react_native",
+        "native_app",
+        "framework"
+      ]
+    },
+    {
+      "id": "real_device_test",
+      "category": "yellow",
+      "term": "実機テスト",
+      "reading": "じっきてすと",
+      "one_liner": "本物の端末で動作確認する",
+      "analogy": "実際のiPhone/Androidにアプリを入れて確認すること。カメラ・通知・指紋認証・速度など本物のハードでしか確かめられない項目を見る。",
+      "where": [
+        "公開前の確認",
+        "カメラや通知の確認",
+        "エミュレータで不安なとき"
+      ],
+      "mistake": "エミュレータで動いても実機で動くとは限らない（特にカメラ・通知・課金・性能）。",
+      "related": [
+        "emulator",
+        "testflight",
+        "app"
+      ]
+    },
+    {
+      "id": "emulator",
+      "category": "yellow",
+      "term": "エミュレータ・シミュレータ",
+      "reading": "えみゅれーた",
+      "one_liner": "PC上で動かす仮想スマホ",
+      "analogy": "PC画面の中で仮想のスマホを動かして確認する仕組み。Android＝エミュレータ、iOS＝シミュレータと呼び分ける。",
+      "where": [
+        "実機なしで試すとき",
+        "開発中の素早い確認",
+        "Android Studio/Xcode"
+      ],
+      "mistake": "iOSシミュレータはMacが必要。実機でしか正確に出ない項目（通知・課金等）もある。",
+      "related": [
+        "real_device_test",
+        "ide",
+        "app"
+      ]
+    },
+    {
+      "id": "bundle_id",
+      "category": "yellow",
+      "term": "バンドルID",
+      "reading": "ばんどるあいでぃー",
+      "one_liner": "アプリを一意に識別するID",
+      "analogy": "アプリの「世界で1つの背番号」。逆ドメイン形式（例 com.会社名.アプリ名）。公開すると基本変更不可。",
+      "where": [
+        "アプリを登録するとき",
+        "app.jsonの設定",
+        "ストアと紐づけるとき"
+      ],
+      "mistake": "アプリ名とは別物（名前は変えられるがIDは実質変えられない）。最初に適当に決めると後で詰む。",
+      "related": [
+        "app_store_connect",
+        "app",
+        "config"
+      ]
+    },
+    {
+      "id": "deep_link",
+      "category": "yellow",
+      "term": "ディープリンク",
+      "reading": "でぃーぷりんく",
+      "one_liner": "アプリの特定画面を直接開くリンク",
+      "analogy": "トップではなく目的の画面へ一発で飛ばすリンク。通知やWebからタップして該当ページを開く。",
+      "where": [
+        "通知から特定画面を開くとき",
+        "Webからアプリへ誘導",
+        "「ディープリンクを貼る」とき"
+      ],
+      "mistake": "ただのリンクではなく、アプリ側のルーティング設定が必要。https形式はドメイン所有の証明設定が要る。",
+      "related": [
+        "url",
+        "redirect",
+        "app"
+      ]
+    },
+    {
+      "id": "aso",
+      "category": "green",
+      "term": "ASO（アプリストア最適化）",
+      "reading": "えーえすおー",
+      "one_liner": "ストアで見つけてもらう最適化",
+      "analogy": "アプリ版のSEO。名前・キーワード・説明文・アイコン・スクショ・評価を工夫して表示順とインストール率を上げる。",
+      "where": [
+        "アプリを広めたいとき",
+        "ストアの掲載情報",
+        "「ASO対策」と言うとき"
+      ],
+      "mistake": "キーワード詰め込みではない。アイコンやスクショの「見た瞬間の魅力」がDL率を大きく左右する。",
+      "related": [
+        "seo",
+        "app_store_connect",
+        "app"
+      ]
+    },
+    {
+      "id": "fast_refresh",
+      "category": "yellow",
+      "term": "ホットリロード（Fast Refresh）",
+      "reading": "ほっとりろーど",
+      "one_liner": "保存で即画面に反映する機能",
+      "analogy": "コードを保存した瞬間、アプリを再起動せず変更だけ画面に反映する開発機能。試行錯誤が爆速になる。",
+      "where": [
+        "開発中のUI調整",
+        "コード保存時",
+        "React Nativeの開発"
+      ],
+      "mistake": "ネイティブ側の変更（新ライブラリ追加など）は反映されず、ビルドし直しが必要な場面もある。",
+      "related": [
+        "build",
+        "react_native",
+        "ide"
+      ]
+    },
+    {
+      "id": "splash_screen",
+      "category": "yellow",
+      "term": "スプラッシュ画面",
+      "reading": "すぷらっしゅがめん",
+      "one_liner": "起動直後に出るロゴ画面",
+      "analogy": "アプリ起動の一瞬、本体が読み込まれるまで出るロゴ画面。読み込み待ちのつなぎとブランド印象づけ。",
+      "where": [
+        "アプリ起動時",
+        "app.jsonの設定",
+        "読み込み待ちのとき"
+      ],
+      "mistake": "長く見せる演出画面ではない。読み込みが終わり次第すぐ消えるべきもの（わざと長くは嫌われる）。",
+      "related": [
+        "app_icon",
+        "app",
+        "config"
+      ]
+    },
+    {
+      "id": "app_icon",
+      "category": "yellow",
+      "term": "アプリアイコン",
+      "reading": "あぷりあいこん",
+      "one_liner": "ホーム画面に並ぶアプリの顔",
+      "analogy": "ホーム画面のアプリの顔。iOSは1枚絵をOSが角丸に整形。Androidのアダプティブアイコンは前景＋背景の2層で端末ごとに形が変わる。",
+      "where": [
+        "アプリの見た目を作るとき",
+        "ストア掲載",
+        "ホーム画面"
+      ],
+      "mistake": "Androidは端末で形が変わるため、ロゴを端まで詰めると切れる。中央のセーフゾーンに主役を収める。",
+      "related": [
+        "icon",
+        "app",
+        "aso"
+      ]
+    },
+    {
+      "id": "sdk",
+      "category": "green",
+      "term": "SDK",
+      "reading": "えすでぃーけー",
+      "one_liner": "開発に必要な道具一式",
+      "analogy": "あるサービスや機能を使うための「開発キット（道具箱）」。ライブラリ・ツール・説明書などをまとめたもの。Software Development Kit の略。",
+      "where": [
+        "外部サービスを組み込むとき",
+        "「○○のSDKを入れる」とき",
+        "Expo SDKなど"
+      ],
+      "mistake": "ライブラリとほぼ同義に使われることもあるが、SDKはより広く「開発に要る一式」を指す。",
+      "related": [
+        "library",
+        "framework",
+        "api"
+      ]
+    },
+    {
+      "id": "regex",
+      "category": "yellow",
+      "term": "正規表現",
+      "reading": "せいきひょうげん",
+      "one_liner": "文字パターンを表す書き方",
+      "analogy": "「数字3桁＋ハイフン＋数字4桁」のような文字の型を、記号で表す書き方。検索や入力チェックに使う。",
+      "where": [
+        "文字列の検索・置換",
+        "入力の形式チェック",
+        "メール形式の判定"
+      ],
+      "mistake": "記号が暗号のようで難しく見える。少しの違いで意図と違うものにマッチするので、必ずテストする。",
+      "related": [
+        "string",
+        "validation",
+        "syntax"
+      ]
+    },
+    {
+      "id": "ci_cd",
+      "category": "yellow",
+      "term": "CI/CD",
+      "reading": "しーあいしーでぃー",
+      "one_liner": "ビルドやテストの自動化の仕組み",
+      "analogy": "コードを変更するたび、自動でテスト・ビルド・公開まで流す「ベルトコンベア」。手作業のミスと手間を減らす。",
+      "where": [
+        "チーム開発",
+        "自動テストや自動デプロイ",
+        "GitHub Actionsなど"
+      ],
+      "mistake": "CI（変更を自動で検証）とCD（自動で配信）は別段階。個人開発でも導入できるが、最初は無理に使わなくてよい。",
+      "related": [
+        "build",
+        "deploy",
+        "github"
+      ]
+    },
+    {
+      "id": "refactoring",
+      "category": "yellow",
+      "term": "リファクタリング",
+      "reading": "りふぁくたりんぐ",
+      "one_liner": "動きを変えず中身を整理する",
+      "analogy": "部屋の機能はそのままに「中を片付けて使いやすくする」作業。動作を変えずにコードを読みやすく整える。",
+      "where": [
+        "コードが汚くなったとき",
+        "機能追加の前準備",
+        "「リファクタする」とき"
+      ],
+      "mistake": "機能を変えるのはリファクタリングではない。整理と機能変更を同時にやると、不具合の原因が分からなくなる。",
+      "related": [
+        "code",
+        "bug",
+        "unit_test"
+      ]
+    },
+    {
+      "id": "unit_test",
+      "category": "yellow",
+      "term": "単体テスト",
+      "reading": "たんたいてすと",
+      "one_liner": "部品ごとに正しさを確かめる",
+      "analogy": "関数など小さな部品1つずつに「この入力ならこの結果になるはず」と自動チェックを書くこと。",
+      "where": [
+        "品質を保ちたいとき",
+        "変更で壊れていないか確認",
+        "「テストを書く」とき"
+      ],
+      "mistake": "テストが通る＝バグゼロではない。テストした範囲しか保証されない。",
+      "related": [
+        "function",
+        "bug",
+        "mock"
+      ]
+    },
+    {
+      "id": "mock",
+      "category": "yellow",
+      "term": "モック",
+      "reading": "もっく",
+      "one_liner": "本物の代わりの偽データ・部品",
+      "analogy": "テストや開発中に、本物のAPIやデータの代わりに使う「ダミー（替え玉）」。まだ無い・呼びたくない部分を仮で埋める。",
+      "where": [
+        "テストを書くとき",
+        "APIがまだ無いとき",
+        "「モックする」とき"
+      ],
+      "mistake": "モックのまま本番に出してしまい、ダミーデータが表に出る事故。",
+      "related": [
+        "unit_test",
+        "api",
+        "async"
+      ]
+    },
+    {
+      "id": "environment",
+      "category": "yellow",
+      "term": "本番環境・開発環境",
+      "reading": "ほんばんかんきょう",
+      "one_liner": "用途で分けた動作場所",
+      "analogy": "「練習場（開発）」と「本番ステージ（本番）」を分ける考え方。試すのは開発環境、ユーザーが使うのは本番環境。",
+      "where": [
+        "アプリを公開するとき",
+        "「本番では動かない」とき",
+        "環境変数の切り替え"
+      ],
+      "mistake": "開発環境で動いたから本番でも動くとは限らない。設定や鍵の違いで本番だけ落ちることがある。",
+      "related": [
+        "deploy",
+        "env_var",
+        "localhost"
+      ]
+    },
+    {
+      "id": "i18n",
+      "category": "yellow",
+      "term": "ローカライズ（多言語対応）",
+      "reading": "ろーからいず",
+      "one_liner": "複数言語・地域に対応させる",
+      "analogy": "アプリを各言語・各地域の文化に合わせて作ること。文言の翻訳だけでなく日付や通貨の形式も含む。i18n（国際化）とも書く。",
+      "where": [
+        "多言語アプリを作るとき",
+        "海外向けの公開",
+        "「ローカライズする」とき"
+      ],
+      "mistake": "翻訳するだけではない。文の長さで画面が崩れたり、日付・通貨・並び順の違いも対応が要る。権限説明文の翻訳漏れは審査リジェクトの定番。",
+      "related": [
+        "string",
+        "ux",
+        "app_review"
+      ]
+    },
+    {
+      "id": "image_format",
+      "category": "green",
+      "term": "画像形式（PNG・JPEG）",
+      "reading": "がぞうけいしき",
+      "one_liner": "用途で使い分ける画像の種類",
+      "analogy": "PNGは透過でき文字やロゴ向き（劣化なし）、JPEGは写真向きでファイルが軽い（少し劣化）。用途で選ぶ。",
+      "where": [
+        "画像を保存するとき",
+        "アプリ素材の用意",
+        "「PNGで書き出す」とき"
+      ],
+      "mistake": "何でもJPEGにして、透過したいロゴの背景が白く残る。逆に写真をPNGにして無駄に重くする。",
+      "related": [
+        "svg",
+        "webp",
+        "extension"
+      ]
+    },
+    {
+      "id": "svg",
+      "category": "green",
+      "term": "SVG",
+      "reading": "えすぶいじー",
+      "one_liner": "拡大しても劣化しない画像形式",
+      "analogy": "点や線を「数式」で持つ画像。いくら拡大してもギザギザにならない。アイコンやロゴ向き。写真には不向き。",
+      "where": [
+        "ロゴやアイコン",
+        "拡大縮小する図形",
+        "Webのアイコン"
+      ],
+      "mistake": "写真をSVGにしようとして重く・非現実的になる。SVGは図形向きで、写真はJPEG等が適す。",
+      "related": [
+        "image_format",
+        "webp",
+        "rendering"
+      ]
+    },
+    {
+      "id": "webp",
+      "category": "green",
+      "term": "WebP",
+      "reading": "うぇっぴー",
+      "one_liner": "軽くて高画質なWeb向け画像",
+      "analogy": "GoogleがWeb向けに作った画像形式。PNGやJPEGより同じ画質で軽くでき、表示が速くなる。",
+      "where": [
+        "Webサイトの高速化",
+        "画像を軽くしたいとき",
+        "「WebPに変換」するとき"
+      ],
+      "mistake": "一部の古い環境で表示できないことがある。対応状況の確認が要る場面もある。",
+      "related": [
+        "image_format",
+        "svg",
+        "cdn"
+      ]
+    },
+    {
+      "id": "ogp",
+      "category": "yellow",
+      "term": "OGP（SNSシェア画像）",
+      "reading": "おーじーぴー",
+      "one_liner": "SNS共有時に出る情報の設定",
+      "analogy": "URLをSNSに貼ると出る「タイトル・説明・サムネ画像」を決める設定。リンクの第一印象を作る。Open Graph Protocol の略。",
+      "where": [
+        "SNSでシェアされるとき",
+        "リンクのサムネ設定",
+        "集客の改善"
+      ],
+      "mistake": "設定し忘れて、シェア時にタイトルも画像も出ず素っ気ないリンクになる。クリック率に響く。",
+      "related": [
+        "meta_tag",
+        "seo",
+        "html"
+      ]
+    },
+    {
+      "id": "meta_tag",
+      "category": "yellow",
+      "term": "メタタグ",
+      "reading": "めたたぐ",
+      "one_liner": "ページの情報を伝える裏の記述",
+      "analogy": "ページ自体には見えないが、検索エンジンやSNSに「このページは何か」を伝えるHTMLの記述。タイトルや説明など。",
+      "where": [
+        "HTMLのhead部分",
+        "SEOやOGPの設定",
+        "「メタタグを入れる」とき"
+      ],
+      "mistake": "見た目に出ないので軽視しがち。検索結果やSNS表示に直結する大事な要素。",
+      "related": [
+        "html",
+        "seo",
+        "ogp"
+      ]
+    },
+    {
+      "id": "dark_mode",
+      "category": "green",
+      "term": "ダークモード",
+      "reading": "だーくもーど",
+      "one_liner": "背景を暗くした表示テーマ",
+      "analogy": "画面を黒基調にする表示。暗い場所で目が疲れにくく、省電力にもなる。明るいテーマと切り替えられる。",
+      "where": [
+        "アプリの表示設定",
+        "「ダークモード対応」",
+        "端末の設定に追従"
+      ],
+      "mistake": "色を反転すればよいだけと思いがち。コントラストや画像の見え方を個別に調整しないと読みにくくなる。",
+      "related": [
+        "ui",
+        "ux",
+        "accessibility"
+      ]
+    },
+    {
+      "id": "accessibility",
+      "category": "green",
+      "term": "アクセシビリティ",
+      "reading": "あくせしびりてぃ",
+      "one_liner": "誰もが使えるようにする配慮",
+      "analogy": "視覚や操作に制約のある人を含め、誰でも使えるようにする工夫。文字サイズ・色の差・読み上げ対応など。a11yとも書く。",
+      "where": [
+        "アプリやサイトの設計",
+        "読み上げ対応",
+        "「アクセシビリティ対応」"
+      ],
+      "mistake": "一部の人のためだけと思いがち。実際は全員の使いやすさ（UX）を底上げする。",
+      "related": [
+        "ux",
+        "ui",
+        "dark_mode"
+      ]
+    },
+    {
+      "id": "payload",
+      "category": "yellow",
+      "term": "ペイロード",
+      "reading": "ぺいろーど",
+      "one_liner": "通信で運ばれる中身のデータ",
+      "analogy": "荷物でいう「中身そのもの」。通信のヘッダー（宛名・送り状）に対し、実際に届けたいデータ本体を指す。",
+      "where": [
+        "APIのやり取り",
+        "Webhookの中身",
+        "「ペイロードを送る」とき"
+      ],
+      "mistake": "通信全体やヘッダーと混同する。ペイロードは運ばれる中身の部分。",
+      "related": [
+        "request",
+        "json",
+        "webhook"
+      ]
+    },
+    {
+      "id": "middleware",
+      "category": "yellow",
+      "term": "ミドルウェア",
+      "reading": "みどるうぇあ",
+      "one_liner": "処理の間に挟む共通の仕組み",
+      "analogy": "リクエストが目的地に届く前に通す「検問所」。ログ記録・認証チェック・変換などを共通で挟み込む部品。",
+      "where": [
+        "サーバーの処理の途中",
+        "認証チェックの共通化",
+        "「ミドルウェアを通す」とき"
+      ],
+      "mistake": "挟む順番が重要。位置を間違えると、認証前に処理が走るなど想定外の動きになる。",
+      "related": [
+        "backend",
+        "request",
+        "authentication"
+      ]
+    },
+    {
+      "id": "latency",
+      "category": "yellow",
+      "term": "レイテンシ（遅延）",
+      "reading": "れいてんし",
+      "one_liner": "反応までにかかる待ち時間",
+      "analogy": "頼んでから返事が来るまでの「間（ま）」。短いほどキビキビ、長いほどもっさり感じる。",
+      "where": [
+        "通信の速さ",
+        "「レイテンシが高い」とき",
+        "サーバーの応答"
+      ],
+      "mistake": "回線速度（一度に運べる量）と混同する。レイテンシは「反応の速さ」で別の指標。",
+      "related": [
+        "request",
+        "response",
+        "server"
+      ]
+    },
+    {
+      "id": "authorization",
+      "category": "green",
+      "term": "認可",
+      "reading": "にんか",
+      "one_liner": "何をしてよいかの許可",
+      "analogy": "認証（本人確認）の次の段階で、「この人はどこまで操作してよいか」を決めること。入館後の「立ち入れる部屋の範囲」。",
+      "where": [
+        "ログイン後の権限管理",
+        "管理者だけの機能",
+        "「認可の設定」"
+      ],
+      "mistake": "認証（本人か確かめる）と認可（何をしてよいか）を混同する。別の段階。",
+      "related": [
+        "authentication",
+        "permission",
+        "login"
+      ]
+    },
+    {
+      "id": "pii",
+      "category": "green",
+      "term": "個人情報（PII）",
+      "reading": "こじんじょうほう",
+      "one_liner": "個人を特定できる情報",
+      "analogy": "名前・メール・電話番号・住所など、誰かを特定できる情報。扱いには法律上の責任が伴う。",
+      "where": [
+        "ユーザー登録の情報",
+        "プライバシーポリシー",
+        "「個人情報を扱う」とき"
+      ],
+      "mistake": "軽い気持ちで集めて保護を怠り漏洩させる。集めるなら必要最小限＋適切な管理が原則。",
+      "related": [
+        "privacy_policy",
+        "data_breach",
+        "encryption"
+      ]
+    },
+    {
+      "id": "data_breach",
+      "category": "red",
+      "term": "データ漏洩",
+      "reading": "でーたろうえい",
+      "one_liner": "情報が外部に漏れる事故",
+      "analogy": "預かったデータが盗まれる・流出する事故。個人情報が漏れると信用も法的責任も大きく損なう。",
+      "where": [
+        "セキュリティ事故",
+        "不正アクセス",
+        "「情報漏洩」のニュース"
+      ],
+      "mistake": "自分の小さなアプリは狙われないと油断する。自動の攻撃は規模を問わず襲ってくる。",
+      "related": [
+        "pii",
+        "phishing",
+        "encryption"
+      ]
+    },
+    {
+      "id": "privacy_policy",
+      "category": "green",
+      "term": "プライバシーポリシー",
+      "reading": "ぷらいばしーぽりしー",
+      "one_liner": "個人情報の扱い方を示す文書",
+      "analogy": "「どんな情報を・何のために集め・どう守るか」を利用者に説明する約束ごとの文書。アプリ公開にほぼ必須。",
+      "where": [
+        "アプリやサイトの公開",
+        "ストア審査",
+        "「プライバシーポリシーを用意」"
+      ],
+      "mistake": "形だけコピペで済ませ、実際の挙動と内容がズレる。審査リジェクトや信用問題になる。",
+      "related": [
+        "pii",
+        "app_review",
+        "gdpr"
+      ]
+    },
+    {
+      "id": "gdpr",
+      "category": "green",
+      "term": "GDPR",
+      "reading": "じーでぃーぴーあーる",
+      "one_liner": "EUの厳しい個人情報保護ルール",
+      "analogy": "EUの個人データ保護の法律。EU圏のユーザーを扱うなら、同意取得やデータ削除対応などが求められる。違反は高額な制裁金。",
+      "where": [
+        "海外（EU）向けサービス",
+        "同意バナーの表示",
+        "「GDPR対応」と言うとき"
+      ],
+      "mistake": "日本のアプリだから無関係と思いがち。EUの利用者を扱えば対象になりうる。",
+      "related": [
+        "pii",
+        "privacy_policy",
+        "cookie"
+      ]
+    },
+    {
+      "id": "security_patch",
+      "category": "red",
+      "term": "セキュリティパッチ",
+      "reading": "せきゅりてぃぱっち",
+      "one_liner": "安全の穴をふさぐ更新",
+      "analogy": "発見された弱点（脆弱性）を修理する「あて布」。OSやライブラリに配られ、当てないと穴が空いたまま。",
+      "where": [
+        "OSやアプリの更新",
+        "「脆弱性が見つかった」とき",
+        "ライブラリの更新"
+      ],
+      "mistake": "面倒で更新を放置し、既に知られた穴を突かれる。パッチは早めに当てるのが基本。",
+      "related": [
+        "update",
+        "virus",
+        "deprecated"
+      ]
+    },
+    {
+      "id": "hashing",
+      "category": "yellow",
+      "term": "ハッシュ化",
+      "reading": "はっしゅか",
+      "one_liner": "元に戻せない変換で守る",
+      "analogy": "パスワードなどを「指紋」のような固定の文字列に変換する技術。暗号化と違い、基本的に元に戻せないのが特徴。",
+      "where": [
+        "パスワードの保管",
+        "データの改ざん検知",
+        "「ハッシュ化して保存」"
+      ],
+      "mistake": "暗号化（鍵で元に戻せる）と混同する。パスワードは元に戻せないハッシュで保管するのが定石。",
+      "related": [
+        "encryption",
+        "password",
+        "authentication"
+      ]
+    },
+    {
+      "id": "jwt",
+      "category": "yellow",
+      "term": "JWT（トークン認証）",
+      "reading": "じぇいだぶりゅーてぃー",
+      "one_liner": "本人情報を詰めた通行証",
+      "analogy": "ログイン後に発行される「電子の通行証」。本人情報を署名付きで詰め、毎回これを見せて本人だと示す。",
+      "where": [
+        "ログインの仕組み",
+        "APIの認証",
+        "「トークンを送る」とき"
+      ],
+      "mistake": "中身は誰でも読める（署名で改ざんは防ぐが秘密ではない）。秘密情報を入れてはいけない。",
+      "related": [
+        "token",
+        "authentication",
+        "api"
+      ]
+    },
+    {
+      "id": "captcha",
+      "category": "green",
+      "term": "CAPTCHA",
+      "reading": "きゃぷちゃ",
+      "one_liner": "人間かどうかを確かめる仕掛け",
+      "analogy": "「信号を含む画像を選べ」などの、ボット（自動プログラム）でなく人間だと確かめる関門。",
+      "where": [
+        "登録やログインの画面",
+        "スパム対策",
+        "「私はロボットではありません」"
+      ],
+      "mistake": "完全にボットを防げるわけではない。利用者の手間にもなるので、入れすぎると離脱を招く。",
+      "related": [
+        "spam",
+        "brute_force",
+        "validation"
+      ]
+    },
+    {
+      "id": "sso",
+      "category": "green",
+      "term": "シングルサインオン（SSO）",
+      "reading": "しんぐるさいんおん",
+      "one_liner": "一度のログインで複数サービス",
+      "analogy": "1回ログインすれば、連携した複数のサービスにそのまま入れる仕組み。会社や学校でよく使う。",
+      "where": [
+        "複数サービスの一括ログイン",
+        "社内システム",
+        "「SSOで入る」とき"
+      ],
+      "mistake": "ソーシャルログイン（OAuth）と似て見えるが、SSOは「一度の認証で複数に入る」体験を指す広い概念。",
+      "related": [
+        "oauth",
+        "authentication",
+        "login"
+      ]
+    },
+    {
+      "id": "zero_day",
+      "category": "red",
+      "term": "ゼロデイ",
+      "reading": "ぜろでい",
+      "one_liner": "対策前に突かれる弱点",
+      "analogy": "開発者がまだ気づいていない・修正が出ていない弱点を突く攻撃。守りの「あて布」が出る前なので危険。",
+      "where": [
+        "新種の攻撃",
+        "「ゼロデイ脆弱性」",
+        "セキュリティ速報"
+      ],
+      "mistake": "パッチが無い間は完全には防げない。だからこそ普段の更新と多層の防御が効いてくる。",
+      "related": [
+        "security_patch",
+        "virus",
+        "data_breach"
+      ]
+    },
+    {
+      "id": "ransomware",
+      "category": "red",
+      "term": "ランサムウェア",
+      "reading": "らんさむうぇあ",
+      "one_liner": "データを人質に金を要求する攻撃",
+      "analogy": "PCのデータを勝手に暗号化して開けなくし、「戻してほしければ身代金を払え」と脅す悪意のプログラム。",
+      "where": [
+        "セキュリティ被害",
+        "「身代金要求」のニュース",
+        "怪しい添付やリンク"
+      ],
+      "mistake": "払えば戻る保証はない。日頃のバックアップと、怪しいファイルを開かないことが最大の防御。",
+      "related": [
+        "virus",
+        "backup",
+        "data_breach"
       ]
     }
   ]
